@@ -27,9 +27,7 @@ var findTarget = function(root, k) {
         if (current.left !== null) stack.push(current.left)
         if (current.right !== null) stack.push(current.right)
     }
-    
-    console.log()
-    
+        
     for (let i = 0; i < numArr.length; i++) {
         for(let j = i + 1; j < numArr.length; j++) {
             if (numArr[i] + numArr[j] === k) return true
