@@ -41,3 +41,10 @@ var findTarget = function(root, k) {
     
     
 };
+
+/*
+Rank 199,606
+Date: 05/17/2023
+Runtime: 102 ms, faster than 29.03%
+Memory Usage: 52.2 MB, less than 27.32%
+*/
