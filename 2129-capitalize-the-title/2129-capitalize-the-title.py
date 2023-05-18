@@ -12,3 +12,8 @@ class Solution:
             if idx != len(wordList) - 1:
                 output += " "
         return output
+    
+# Rank 195,534
+# Date 5/18/2023
+# Runtime: 51 ms, faster than 9.95%
+# Memory Usage: 16.3 MB, less than 16.39%
