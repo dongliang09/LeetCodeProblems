@@ -19,3 +19,8 @@ class Solution:
             index += k
             
         return output
+    
+# Rank 195,534
+# Date 5/18/2023
+# Runtime: 58 ms, faster than 5.46% 
+# Memory Usage: 16.3 MB, less than 25.73%
