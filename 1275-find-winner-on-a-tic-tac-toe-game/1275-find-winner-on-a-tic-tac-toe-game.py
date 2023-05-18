@@ -52,3 +52,8 @@ class Solution:
             return "Draw"
         else:
             return "Pending"
+        
+# Rank 195,534
+# Date 5/18/2023
+# Runtime: 54 ms, faster than 13.47%
+# Memory Usage: 16.4 MB, less than 15.70%
