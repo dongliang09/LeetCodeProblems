@@ -25,8 +25,11 @@ var findSmallestSetOfVertices = function(n, edges) {
 
 
 /*
+Rank 198,598
+Date 5/17/2023
+Runtime: 221 ms, faster than 19.61%
+Memory Usage: 80.7 MB, less than 10.46%
 ============test case ==============
-
 5
 [[1,3],[2,0],[2,3],[1,0],[4,1],[0,3]]
 */
