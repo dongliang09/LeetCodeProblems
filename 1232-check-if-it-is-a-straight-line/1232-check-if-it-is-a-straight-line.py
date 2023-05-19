@@ -12,3 +12,8 @@ class Solution:
                     return False
             
         return True
+    
+# Rank 195,534
+# Date 5/19/2023
+# Runtime: 81 ms, faster than 14.00%
+# Memory Usage: 16.8 MB, less than 27.92%
