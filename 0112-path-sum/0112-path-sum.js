@@ -40,3 +40,10 @@ var hasPathSum = function(root, targetSum) {
     
     return false
 };
+
+/*
+# Rank 195,534
+# Date 5/19/2023
+# Runtime: 78 ms, faster than 20.20%
+# Memory Usage: 45.8 MB, less than 56.10%
+*/
