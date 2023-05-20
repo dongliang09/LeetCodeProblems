@@ -29,3 +29,10 @@ var setZeroes = function(matrix) {
     
     
 };
+
+/*
+# Rank 195,534
+# Date 5/19/2023
+# Runtime: 85 ms, faster than 40.69%
+# Memory Usage: 5.2 MB, less than 40.12%
+*/
