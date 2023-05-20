@@ -31,3 +31,10 @@ var lemonadeChange = function(bills) {
     
     return true
 };
+
+/*
+# Rank 195,534
+# Date 5/19/2023
+# Runtime: 63 ms, faster than 98.71%
+# Memory Usage: 50.8 MB, less than 48.07%
+*/
