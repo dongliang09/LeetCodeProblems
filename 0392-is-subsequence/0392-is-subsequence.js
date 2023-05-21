@@ -9,9 +9,7 @@ var isSubsequence = function(s, t) {
     let currStr = t
     for (let i = 0; i < s.length; i++) {
         currStr = currStr.substring(startIndex, t.length)
-        // console.log(currStr, startIndex)
         startIndex = currStr.indexOf(s[i])
-        // console.log(currStr, startIndex)
         if (startIndex === -1) return false
         startIndex += 1
     }
@@ -22,9 +20,13 @@ var isSubsequence = function(s, t) {
 
 
 /*
+
+# Rank 182,536
+# Date 5/20/2023
+# Runtime: 46 ms, faster than 98.48% 
+# Memory Usage: 42 MB, less than 53.33%
+
 =============test case ======
-
-
 "aaaaaa"
 "bbaaaa"
 
