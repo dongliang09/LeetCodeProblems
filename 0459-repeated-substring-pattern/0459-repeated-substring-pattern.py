@@ -14,3 +14,8 @@ class Solution:
                     if newS == s:
                         return True
         return False
+
+# Rank 182,536
+# Date 5/20/2023
+# Runtime: 236 ms, faster than 13.79% 
+# Memory Usage: 16.7 MB, less than 6.39% 
