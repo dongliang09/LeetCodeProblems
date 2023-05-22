@@ -20,3 +20,10 @@ var minLength = function(s) {
     
     return s.length
 };
+
+/*
+# Rank 179,825
+# Date 5/22/2023
+# Runtime: 90 ms, faster than 100.00%
+# Memory Usage: 46.9 MB, less than 100.00%
+*/
