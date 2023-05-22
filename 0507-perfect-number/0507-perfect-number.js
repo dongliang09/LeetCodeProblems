@@ -21,3 +21,11 @@ var checkPerfectNumber = function(num) {
     else return false
     
 };
+
+/*
+# Rank 179,825
+# Date 5/21/2023
+# Runtime: 5543 ms, faster than 12.21% 
+# Memory Usage:  42.6 MB, less than 9.67%
+
+*/
