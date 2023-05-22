@@ -21,3 +21,12 @@ var topKFrequent = function(nums, k) {
     return output
     
 };
+
+
+/*
+# Rank 179,825
+# Date 5/21/2023
+# Runtime: 82 ms, faster than 40.34% 
+# Memory Usage:  46 MB, less than 39.03%
+
+*/
