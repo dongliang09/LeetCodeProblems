@@ -19,3 +19,11 @@ var findRelativeRanks = function(score) {
     
     return output
 };
+
+/*
+# Rank 179,825
+# Date 5/21/2023
+# Runtime: 118 ms, faster than 29.58% 
+# Memory Usage: 45.6 MB, less than 34.16% 
+
+*/
