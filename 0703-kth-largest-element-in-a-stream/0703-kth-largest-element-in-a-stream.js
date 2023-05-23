@@ -4,7 +4,7 @@
  */
 var KthLargest = function(k, nums) {
     this.k = k;
-    this.numArr = nums.sort()
+    this.numArr = nums
 };
 
 /** 
