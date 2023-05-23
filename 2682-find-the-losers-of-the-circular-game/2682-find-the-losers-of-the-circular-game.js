@@ -19,7 +19,7 @@ var circularGameLosers = function(n, k) {
     let output = []
     let visitedArr = [...visited]
     for (let i = 0; i < n; i++) {
-        if (!visitedArr.includes(i)) output.push(i + 1)
+        if (!visitedArr.includes(i)) output.push(i + 1) // need to push i + 1 because the seat starts from 1
     }
     
     return output
