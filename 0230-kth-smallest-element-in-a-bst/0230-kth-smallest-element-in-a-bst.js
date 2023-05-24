@@ -28,3 +28,10 @@ var kthSmallest = function(root, k) {
     
     return numArr[k- 1]
 };
+
+/*
+# Rank 174,545
+# Date 5/23/2023
+# Runtime: 70 ms, faster than 76.11% 
+# Memory Usage: 49 MB, less than 18.61%
+*/
