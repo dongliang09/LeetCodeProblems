@@ -35,6 +35,11 @@ MyQueue.prototype.empty = function() {
 };
 
 /** 
+# Rank 174,545
+# Date 5/24/2023
+# Runtime: 50 ms, faster than 90.32% 
+# Memory Usage: 42.4 MB, less than 12.46%
+================================
  * Your MyQueue object will be instantiated and called as such:
  * var obj = new MyQueue()
  * obj.push(x)
