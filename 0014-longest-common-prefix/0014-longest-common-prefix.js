@@ -42,7 +42,12 @@ var longestCommonPrefix = function(strs) {
     return comparePrefix.substring(0, compareLen - 1)
      
 };
+
 /*
+# Rank 177,187
+# Date 5/25/2023
+# Runtime: 72 ms, faster than 18.05%
+# Memory Usage: 44.5 MB, less than 10.87% 
 ==============test case===========
 [""]
 ["abc",""]
