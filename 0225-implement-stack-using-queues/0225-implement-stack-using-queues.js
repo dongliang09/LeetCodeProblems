@@ -36,6 +36,12 @@ MyStack.prototype.empty = function() {
 };
 
 /** 
+# Rank 174,545
+# Date 5/24/2023
+# Runtime: 49 ms, faster than 91.62%
+# Memory Usage: 41.9 MB, less than 39.56%
+================================
+
  * Your MyStack object will be instantiated and called as such:
  * var obj = new MyStack()
  * obj.push(x)
