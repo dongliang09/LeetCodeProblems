@@ -46,3 +46,10 @@ var binaryTreePaths = function(root) {
     return output
     
 };
+
+/*
+# Rank 172,180
+# Date 5/26/2023
+# Runtime: 58 ms, faster than 78.24%
+# Memory Usage: 43.7 MB, less than 71.76%
+*/
