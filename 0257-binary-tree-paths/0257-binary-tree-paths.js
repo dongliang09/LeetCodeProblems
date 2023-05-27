@@ -13,8 +13,6 @@
 var binaryTreePaths = function(root) {
     
     let output = []
-    // root.path = String(root.val);
-    
     let stack = [root]
     
     while(stack.length) {
