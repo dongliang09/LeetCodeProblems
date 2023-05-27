@@ -20,3 +20,10 @@ var buyChoco = function(prices, money) {
     return money - max < 0 ? money : money - max
     
 };
+
+/*
+# Rank 170,464
+# Date 5/27/2023
+# Runtime: 95 ms, faster than 100.00% 
+# Memory Usage: 46 MB, less than 100.00%
+*/
