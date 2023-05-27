@@ -54,6 +54,12 @@ var maxStrength = function(nums) {
 
 
 /*
+# Rank 170,464
+# Date 5/27/2023
+# Runtime: 78 ms, faster than 100.00%
+# Memory Usage: 47.6 MB, less than 100.00%
+
+biweekly contest problem, only didn't consider array with all zero after failing 2 test cases
 ============test case=========
 
 [0,-1] => 0 
