@@ -24,17 +24,13 @@ ParkingSystem.prototype.addCar = function(carType) {
         } else {
             return false
         }
-    }
-    
-    if (carType === 2) {
+    } else if (carType === 2) {
         if (this.currentMedium < this.medium) {
             this.currentMedium++
         } else {
             return false
         }
-    }
-    
-    if (carType === 3) {
+    } else {
         if (this.currentSmall < this.small) {
             this.currentSmall++
         } else {
@@ -46,6 +42,13 @@ ParkingSystem.prototype.addCar = function(carType) {
 };
 
 /** 
+
+# Rank 167,933
+# Date 5/28/2023
+# Runtime: 154 ms, faster than 5.39% 
+# Memory Usage: 49.9 MB, less than 56.29%
+
+============================================
  * Your ParkingSystem object will be instantiated and called as such:
  * var obj = new ParkingSystem(big, medium, small)
  * var param_1 = obj.addCar(carType)
