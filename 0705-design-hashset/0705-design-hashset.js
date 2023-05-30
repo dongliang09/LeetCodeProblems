@@ -34,6 +34,12 @@ MyHashSet.prototype.contains = function(key) {
 };
 
 /** 
+# Rank 167,156
+# Date 5/29/2023
+# Runtime: 290 ms, faster than 25.07%
+# Memory Usage: 50.7 MB, less than 97.08%
+
+============================================
  * Your MyHashSet object will be instantiated and called as such:
  * var obj = new MyHashSet()
  * obj.add(key)
