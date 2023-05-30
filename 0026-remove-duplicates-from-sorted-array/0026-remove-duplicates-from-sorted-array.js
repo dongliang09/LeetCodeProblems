@@ -10,14 +10,14 @@ var removeDuplicates = function(nums) {
     // until we check every element inside the array
     // at the end, return the length of num array
     
-    let bound = nums.length        //3
-    for (let i= 0; i < bound - 1; i++) { //0
-        let current = nums[i]  //1
-        let nextNum = nums[i + 1]  //2
+    let bound = nums.length        
+    for (let i= 0; i < bound - 1; i++) { 
+        let current = nums[i]  
+        let nextNum = nums[i + 1]  
         if (current === nextNum) {
-            nums.splice(i+1, 1);  //[1,2]
-            bound--;  ///2
-            i--; //-1
+            nums.splice(i+1, 1);  
+            bound--;  
+            i--; // decrement i if we need to stay on the same element
         }
     }
     
@@ -25,4 +25,11 @@ var removeDuplicates = function(nums) {
 
     
 };
+
+/*
+# Rank 166,451
+# Date 5/30/2023
+# Runtime: 139 ms, faster than 12.12%
+# Memory Usage: 44.8 MB, less than 42.07%
+*/
 
