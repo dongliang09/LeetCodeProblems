@@ -29,6 +29,12 @@ MyHashMap.prototype.remove = function(key) {
 };
 
 /** 
+# Rank 1166,451
+# Date 5/30/2023
+# Runtime: 174 ms, faster than 82.69%
+# Memory Usage: 52.4 MB, less than 49.69%
+
+============================================
  * Your MyHashMap object will be instantiated and called as such:
  * var obj = new MyHashMap()
  * obj.put(key,value)
