@@ -18,3 +18,11 @@ var digitCount = function(num) {
     
     return true
 };
+
+/** 
+# Rank 1166,451
+# Date 5/30/2023
+# Runtime: 68 ms, faster than 40.13%
+# Memory Usage: 42.4 MB, less than 55.26%
+
+ */
