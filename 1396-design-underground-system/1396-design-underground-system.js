@@ -2,11 +2,10 @@
 var UndergroundSystem = function() {
     this.data={"checkIn":{}, "checkOut":{}, avgTime:{}}
 /*   
+    // assume only one check in and one checkout at a time
+    // so no need for checkout
     {
         checkIn:{
-            userId: [stationName, t]
-        },
-        checkOut: {
             userId: [stationName, t]
         },
         avgTime: {
@@ -55,7 +54,10 @@ UndergroundSystem.prototype.getAverageTime = function(startStation, endStation) 
 };
 
 /** 
-
+# Rank 164,825
+# Date 5/31/2023
+# Runtime: 243 ms, faster than 42.19%
+# Memory Usage: 61.6 MB, less than 17.19%
 ============= test case ===========
 ["UndergroundSystem","checkIn","checkIn","checkIn","checkOut","checkOut","checkOut","getAverageTime","getAverageTime","checkIn","getAverageTime","checkOut","getAverageTime"]
 [[],[45,"a",3],[32,"aa",8],[27,"a",10],[45,"ab",15],[27,"ab",20],[32,"b",22],["aa","b"],["a","ab"],[10,"a",24],["a","ab"],[10,"ab",38],["a","ab"]]
