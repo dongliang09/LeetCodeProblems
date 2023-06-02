@@ -58,3 +58,12 @@ var sumOfLeftLeaves = function(root) {
     return sum
     
 };
+
+/*
+# Rank 164,127
+# Date 6/1/2023
+# Runtime: 79 ms, faster than 6.72%
+# Memory Usage: 45 MB, less than 22.69%
+
+
+*/
