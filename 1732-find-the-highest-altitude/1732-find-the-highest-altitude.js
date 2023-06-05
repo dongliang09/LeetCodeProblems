@@ -18,3 +18,12 @@ var largestAltitude = function(gain) {
     
     return max
 };
+
+
+/*
+# Rank 162,270
+# Date 6/5/2023
+# Runtime: 62 ms, faster than 35.89%
+# Memory Usage: 42.3 MB, less than 18.08% 
+
+*/
