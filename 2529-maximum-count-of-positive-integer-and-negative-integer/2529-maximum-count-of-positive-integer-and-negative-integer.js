@@ -22,6 +22,7 @@ var maximumCount = function(nums) {
     let posLen = 0
     let zeroLen = 0
     
+    //final check on length with 2 cases, one with zero, one without
     if (index0 === -1) {
         
         // if the array has no positives or no negative, 
@@ -52,7 +53,11 @@ var maximumCount = function(nums) {
         
     }
     
-    
-    
-    
 };
+
+/*
+# Rank 161,072
+# Date 6/8/2023
+# Runtime: 66 ms, faster than 46.26%
+# Memory Usage: 44.4 MB, less than 66.74%
+*/
