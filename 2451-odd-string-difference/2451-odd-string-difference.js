@@ -4,6 +4,18 @@
  */
 var oddString = function(words) {
     
+    //==============idea =================
+    // we wil have an object to count thre frequency, with the difference integer array as key
+    // since there is only one word differnt from all the others
+    //  this object will have at most 2 keys
+    // Once we have 2 pairs of key-values pairs in this object
+    // one will have greater or equal to 2 count, the other one will have exactly one
+    // the one with exactly one is what we want
+    // At the same time, we have variables to track the index, so we can easily find the word
+    
+    
+    
+    // ============ codes ===================
     let freqCount = {} // use diff interger array as key
     let firstKey
     let secondKey
@@ -17,7 +29,6 @@ var oddString = function(words) {
             DiffArr.push(words[i].charCodeAt(j) - words[i].charCodeAt(j - 1))
         }
         
-        // console.log("DiffArr", DiffArr)
         let currentKey = ""
         // check if the key exists
         if (!firstKey) {
@@ -35,18 +46,17 @@ var oddString = function(words) {
             }
             
         }
-        // console.log("key", firstKey, secondKey, currentKey)
+
         
         // keep track how many time it appears
         if (!freqCount[currentKey]) freqCount[currentKey] = 1
         else freqCount[currentKey]++
         
-        // console.log(i, firstIndex, secondIndex)
+
         // check if the different one appears
         let countArr = Object.values(freqCount)
         if (countArr.length === 2) {
             let isAppearTwice = countArr.find(element => element >= 2)
-            // console.log(countArr, isAppearTwice)
             if (isAppearTwice) {
                 let appearTwice 
                 if (freqCount[firstKey] >= 2) {
@@ -67,6 +77,12 @@ var oddString = function(words) {
 
 
 /*
+
+Rank 157,557
+Date: 06/12/2023
+Runtime: 47 ms, faster than 100.00% 
+Memory Usage: 42.1 MB, less than 95.89%
+
 ===================test case ============
 ["mll","edd","jii","tss","fee","dcc","nmm","abb","utt","zyy","xww","tss","wvv","xww","utt"]
 */
