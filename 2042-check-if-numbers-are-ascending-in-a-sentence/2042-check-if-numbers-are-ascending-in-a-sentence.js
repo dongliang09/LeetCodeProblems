@@ -11,6 +11,7 @@ var areNumbersAscending = function(s) {
     // if it is a number between 2 and 100, push into an array
     // if the array has more than one element, check if it is greater than the previous one
     // return false if it is not
+    // at the end, if everything follows the rule, return true
     
     //=========== codes ==============
     let numArr = []
@@ -32,6 +33,6 @@ var areNumbersAscending = function(s) {
 /*
 Rank 156,066
 Date: 06/14/2023
-Runtime: 88 ms
-Memory Usage: 41.8 MB
+Runtime: 53 ms, faster than 83.47%
+Memory Usage: 41.7 MB, less than 93.55%
 */
