@@ -39,6 +39,6 @@ var findLucky = function(arr) {
 /*
 Rank 156,066
 Date: 06/13/2023
-Runtime: 99 ms
-Memory Usage: 43.2 MB
+Runtime: 77 ms, faster than 14.00% 
+Memory Usage: 44.9 MB, less than 18.05%
 */
