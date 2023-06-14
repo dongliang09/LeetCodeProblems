@@ -65,7 +65,10 @@ var commonChars = function(words) {
 // use array.every ?
 
 /*
-
+Rank 154,629
+Date: 06/14/2023
+Runtime: 111 ms, faster than 23.02%
+Memory Usage: 51 MB, less than 18.16%
 
 //=======================first try ===========
 // didn't consider deplicates
