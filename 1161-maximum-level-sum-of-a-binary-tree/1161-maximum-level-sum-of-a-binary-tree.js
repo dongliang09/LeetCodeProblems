@@ -12,6 +12,14 @@
  */
 var maxLevelSum = function(root) {
     
+    // =============== idea ===================
+    // use an object to store the sum of each level
+    // sort the object.entries based on sum
+    // find the max sum from object.values
+    // the first sum match max is the output
+    
+    
+    // =============== code ===================
     let levelSum = {}
     root.level = 1
     
@@ -36,11 +44,21 @@ var maxLevelSum = function(root) {
         
     }
     
+    //find max
     let max = Math.max(...Object.values(levelSum))
     
+    // sort by level
     let levelSumEntry = Object.entries(levelSum).sort((a,b)=>Number(a[0])-Number(b[0]))
-                                                      
+    
+    // find first matching
     for (let i = 0; i < levelSumEntry.length; i++) {
         if (levelSumEntry[i][1] === max) return Number(levelSumEntry[i][0])
     }
 };
+
+/*
+Rank 154,629
+Date: 06/14/2023
+Runtime: 166 ms, faster than 51.22% 
+Memory Usage: 76.8 MB, less than 12.20%
+*/
