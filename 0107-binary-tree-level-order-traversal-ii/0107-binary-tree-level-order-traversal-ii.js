@@ -58,3 +58,11 @@ var levelOrderBottom = function(root) {
     return output.reverse()
     
 };
+
+/*
+Rank: 150,923
+Date: 06/16/2023
+Runtime: 59 ms, faster than 83.74%
+Memory Usage: 44.3 MB, less than 51.90%
+
+*/
