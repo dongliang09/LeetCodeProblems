@@ -41,3 +41,11 @@ var minDepth = function(root) {
     
     return output
 };
+
+/*
+Rank: 150,923
+Date: 06/16/2023
+Runtime: 232 ms, faster than 43.75%  
+Memory Usage: 107.7 MB, less than 5.27%
+
+*/
