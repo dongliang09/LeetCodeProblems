@@ -12,6 +12,18 @@
  */
 var levelOrder = function(root) {
     
+    //==========idea ==============
+    // ususally I like to use stack because stack.pop() is more efficient
+    // since we need to do traversal from top to bottom, and from left to right
+    // queue would be better in here
+    
+    // each node will have level property,
+    // we will have a variable to indicate current level,
+    // if node level is same as the variable, push node value into an array
+    // if we reach a new level, we will push the array of previous level's elements into the final array
+    
+    
+    // ==========code ============
     let output = []
     
     if (root === null) return []
@@ -24,6 +36,8 @@ var levelOrder = function(root) {
     while(queue.length) {
         let current = queue.shift()
         
+        
+        // compare level to indication of level
         if (current.level > currentLvl) {
             output.push(currentlvlArr)
             currentlvlArr = []
@@ -33,6 +47,8 @@ var levelOrder = function(root) {
             currentlvlArr.push(current.val)
         }
         
+        
+        //push to queue
         if (current.left !== null) {
             current.left.level = current.level + 1
             queue.push(current.left)
@@ -48,3 +64,11 @@ var levelOrder = function(root) {
     return output
     
 };
+
+/*
+Rank: 150,923
+Date: 06/16/2023
+Runtime: 83 ms, faster than 22.42%
+Memory Usage: 46.3 MB, less than 5.49%
+
+*/
