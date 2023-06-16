@@ -12,6 +12,12 @@
  */
 var averageOfLevels = function(root) {
     
+    // =============== idea ================
+    // we will have an object to count each level's sum and number of elements
+    // each node will have property of level
+    // at the end, we can find the average of each level and push to output array
+    
+    // =============== codes ================
     let output = []
     
     let maxLevel = 0
@@ -60,3 +66,11 @@ var averageOfLevels = function(root) {
     return output
     
 };
+
+/*
+Rank: 150,923
+Date: 06/16/2023
+Runtime: 70 ms, faster than 91.46%
+Memory Usage: 47.8 MB, less than 23.37%
+
+*/
