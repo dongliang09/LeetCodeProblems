@@ -12,6 +12,12 @@
  */
 var sumNumbers = function(root) {
     
+    //=============== idea ===========
+    // each node will have "number" property that keep adding value of each node as string
+    // when we reach the leaf node, we can convert the string to number, and add to sum
+    
+    //=============== code =========== 
+    
     root.number = String(root.val)
     
     let sum = 0
@@ -40,3 +46,10 @@ var sumNumbers = function(root) {
     
     return sum
 };
+
+/*
+Rank 150,923
+Date: 06/16/2023
+Runtime:  65 ms, faster than 34.26%
+Memory Usage: 42.1 MB, less than 82.49%
+*/
