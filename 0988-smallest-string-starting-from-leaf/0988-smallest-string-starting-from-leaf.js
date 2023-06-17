@@ -12,6 +12,13 @@
  */
 var smallestFromLeaf = function(root) {
     
+    //=============== idea ===========
+    // each node will have "string" property that keep adding new letter to parent's string
+    // when we reach the leaf node, we can store the string to an array
+    // at the end, sort the array, it is sorted lecicographically, return the first element of array 
+    
+    //=============== code =========== 
+    
     let alphbets = 'abcdefghijklmnopqrstuvwxyz'
     
     root.string = alphbets[root.val]
@@ -45,3 +52,10 @@ var smallestFromLeaf = function(root) {
     return leafNodeStrArr[0]
     
 };
+
+/*
+Rank 150,923
+Date: 06/16/2023
+Runtime:  72 ms, faster than 88.46%
+Memory Usage: 49.7 MB, less than 26.92% 
+*/
