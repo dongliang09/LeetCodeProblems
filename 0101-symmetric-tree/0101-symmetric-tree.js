@@ -12,8 +12,14 @@
  */
 var isSymmetric = function(root) {
     
-    // switch the left node and right node push to stack
     
+    // ==================== idea ================
+    // the problem is very similar to "Same Tree" problem
+    // except the left node and right node are switched
+    // therefore we need to switch the order for left node and right node pushed to stack
+    
+    
+    // ==================== code ================
     let stackP = [root.left];
     let stackQ = [root.right];
     while (stackP.length) {
@@ -50,3 +56,11 @@ var isSymmetric = function(root) {
     
     
 };
+
+/*
+
+Rank 146,593
+Date: 06/17/2023
+Runtime: 62 ms, faster than 86.45% 
+Memory Usage: 44.9 MB, less than 25.01%
+*/
