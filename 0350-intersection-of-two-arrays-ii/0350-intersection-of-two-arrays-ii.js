@@ -5,6 +5,13 @@
  */
 var intersect = function(nums1, nums2) {
     
+    // ========== idea ============
+    // count frequency of each array, and store in separate objects
+    // if both objects have the same key, compare their counts, take the minimun value,
+    // push the key that many times into the output array
+    
+    //========= code ============
+    
     let freqCount1 = {}, freqCount2 = {}
     let output = []
     
@@ -18,7 +25,6 @@ var intersect = function(nums1, nums2) {
         else freqCount2[nums2[i]] = 1
     }
     
-    // console.log(freqCount1, freqCount2)
     
     let nums1Keys = Object.keys(freqCount1)
     
@@ -26,8 +32,6 @@ var intersect = function(nums1, nums2) {
         let current = nums1Keys[i]
         let currCount1 = freqCount1[current]
         let currCount2 = freqCount2[current]
-        
-        // console.log(current, currCount1, currCount2)
         
         if (currCount1 && currCount2) {
             let minCount = currCount1
@@ -45,3 +49,10 @@ var intersect = function(nums1, nums2) {
     return output
     
 };
+
+/*
+# Rank 144,707
+# Date 06/19/2023
+# Runtime: 74 ms, faster than 17.47%
+# Memory Usage: 45.4 MB, less than 7.03%
+*/
