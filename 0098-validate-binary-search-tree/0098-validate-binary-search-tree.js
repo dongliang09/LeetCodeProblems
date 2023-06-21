@@ -12,10 +12,20 @@
  */
 var isValidBST = function(root) {
     
+    
+    // ===============idea ==============
+    // each node need to check left and right children nodes
+    // since we need to take care the order of left and right node, 
+    // we will recursively calling the left node until we reach null,
+    // then call the right node
+    // store each node's value in array as we traverse the tree
+    // as the final act, check if the values are ordered from smallest to biggest in the array
+    
+    // =============== code ===============
     let treeArr = []
     let isValid = true
     
-    //===========helper function ============
+    //----------- helper function -----------
     function binaryTreeTraverse(root) {
 
         // Check the base case
@@ -26,7 +36,7 @@ var isValidBST = function(root) {
         }
         
         if (isValid) {
-            // Recursively sum up the left and right trees
+            // Recursively call left and right nodes
             const leftSum = binaryTreeTraverse(root.left);
             treeArr.push(root.val)
             const rightSum = binaryTreeTraverse(root.right);
@@ -35,7 +45,7 @@ var isValidBST = function(root) {
         return
     }
     
-    // ========= main code ==================
+    // ----------- main code -----------
     binaryTreeTraverse(root)
     
     if (isValid) {
@@ -46,24 +56,14 @@ var isValidBST = function(root) {
     }
     else return false
     
-    
-
 };
 
 /*
 
-function binaryTreeSum(root) {
-
-    // Check the base case
-    if (root === null) return 0;
-
-    // Recursively sum up the left and right trees
-    const leftSum = binaryTreeSum(root.left);
-    const rightSum = binaryTreeSum(root.right);
-
-    // Return the value plus the left and right totals
-    return root.value + leftSum + rightSum;
-}
+# Rank 142,813
+# Date 06/21/2023
+# Runtime: 81 ms, faster than 16.29%
+# Memory Usage: 46.7 MB, less than 35.62%
 
 ================first try =========
 
