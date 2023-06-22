@@ -29,3 +29,10 @@ var isUnivalTree = function(root) {
     return true
     
 };
+
+/*
+# Rank 142,221
+# Date 06/22/2023
+# Runtime: 66 ms, faster than 20.83%
+# Memory Usage: 43.6 MB, less than 11.31%
+*/
