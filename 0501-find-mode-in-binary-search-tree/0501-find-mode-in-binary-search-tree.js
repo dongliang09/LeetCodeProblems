@@ -12,6 +12,13 @@
  */
 var findMode = function(root) {
     
+    // ============= idea ==============
+    // count the frequency of value in each node, store in an object
+    // take the object values, and find the max frequency
+    // look through object entries, if it has same frequency as max frequency, push into output array
+    
+    // ============= code ==============
+    
     let output = []
     let freqCount = {}
     
@@ -37,3 +44,10 @@ var findMode = function(root) {
     return output
     
 };
+
+/*
+# Rank 142,221
+# Date 06/22/2023
+# Runtime: 103 ms, faster than 14.12% 
+# Memory Usage: 51.9 MB, less than 22.94% 
+*/
