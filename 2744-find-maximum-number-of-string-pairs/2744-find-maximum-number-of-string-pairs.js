@@ -4,7 +4,12 @@
  */
 var maximumNumberOfStringPairs = function(words) {
     
+    //========== idea ========
+    // have a set to store the reverse the of words,
+    // if the set already has matching of current word, then pair + 1
+    // else store the reverse of the current word into set
     
+    //========== code ========
     let visited = new Set()
     let output = 0;
     
@@ -17,3 +22,10 @@ var maximumNumberOfStringPairs = function(words) {
     }
     return output
 };
+
+/*
+# Rank 141,076
+# Date 06/24/2023
+# Runtime: 68 ms, faster than 100.00%
+# Memory Usage: 44.4 MB, less than 100.00%
+*/
