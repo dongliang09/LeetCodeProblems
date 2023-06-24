@@ -13,3 +13,10 @@ var countSegments = function(s) {
     
     return output
 };
+
+/*
+# Rank 141,076
+# Date 06/24/2023
+# Runtime: 56 ms, faster than 61.15%
+# Memory Usage: 41.9 MB, less than 46.19%
+*/
