@@ -27,6 +27,12 @@ SmallestInfiniteSet.prototype.addBack = function(num) {
 };
 
 /** 
+# Rank 139,256
+# Date 06/26/2023
+# Runtime: 559 ms, faster than 5.03% 
+# Memory Usage: 49.2 MB, less than 96.23%
+ =============================
+ 
  * Your SmallestInfiniteSet object will be instantiated and called as such:
  * var obj = new SmallestInfiniteSet()
  * var param_1 = obj.popSmallest()
