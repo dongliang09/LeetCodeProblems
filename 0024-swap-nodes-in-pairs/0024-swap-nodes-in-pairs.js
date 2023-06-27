@@ -11,6 +11,13 @@
  */
 var swapPairs = function(head) {
     
+    //================ idea ==============
+    
+    // store node of linked list into array
+    // change the pointing of current node to different node based on the index of array (odd or even)
+    
+    //================ code ==============
+    
     if (head === null || head.next === null) return head
     
     let nodeArr = []
@@ -29,7 +36,6 @@ var swapPairs = function(head) {
         if (current === null) isEnd = true
     }
     
-    // console.log(nodeArr, nodeArr.length)
     
     let firstNode, secondNode, lastNode;
     
