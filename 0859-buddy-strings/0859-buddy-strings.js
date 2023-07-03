@@ -5,6 +5,17 @@
  */
 var buddyStrings = function(s, goal) {
     
+    
+    // ========== idea ==============
+    
+    // if two strings are match, check the letter of occurance, if one letter occurs twice, it passes
+    
+    // if two strings are not match, store the 1st and 2nd index of mismatch
+    // as we loop through the string, if we have some values for both index, and we still find mismatch, it fails
+    // if we only have one place of mismatch, it also fails
+    // if it has exctly 2 mismatch, check if the letter of those index are swap
+    
+    // ========== code ==============
     if (s.length !== goal.length) return false
     
     if (s !== goal) {
@@ -50,6 +61,11 @@ var buddyStrings = function(s, goal) {
 };
 
 /*
+# Rank 136,719
+# Date 07/03/2023
+# Runtime: 53 ms, faster than 98.07%
+# Memory Usage: 42.7 MB, less than 76.06%
+
 ======== test case =======
 "ab"
 "ca"
