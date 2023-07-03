@@ -19,3 +19,10 @@ var decode = function(encoded, first) {
     return output
     
 };
+
+/*
+# Rank 135,450
+# Date 07/03/2023
+# Runtime: Runtime: 89 ms, faster than 90.06%
+# Memory Usage: 48.4 MB, less than 88.51%
+*/
