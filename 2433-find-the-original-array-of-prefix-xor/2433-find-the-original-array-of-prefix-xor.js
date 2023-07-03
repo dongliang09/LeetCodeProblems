@@ -4,6 +4,12 @@
  */
 var findArray = function(pref) {
     
+    // =========== idea ============
+    // reverse of XOR is XOR itself
+    
+    
+    //============ code ============
+    
     let output = [pref[0]]
     let currentXOR = pref[0]
     
@@ -16,3 +22,10 @@ var findArray = function(pref) {
     
     return output
 };
+
+/*
+# Rank 135,450
+# Date 07/03/2023
+# Runtime: 206 ms, faster than 64.20% 
+# Memory Usage: 70.3 MB, less than 98.77%
+*/
