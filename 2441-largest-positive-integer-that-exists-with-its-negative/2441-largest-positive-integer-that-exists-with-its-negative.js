@@ -4,6 +4,15 @@
  */
 var findMaxK = function(nums) {
     
+    // ========== idea ==============
+    
+    // if the array has only negative, return false
+    
+    // sort the arrays from biggest to smallest
+    // first time we found a negative of current positive number, return that number
+    
+    // ========== code ==============
+    
     //sort from biggest to smallest
     nums.sort((a,b)=>b-a)
     
@@ -17,3 +26,10 @@ var findMaxK = function(nums) {
     return -1
     
 };
+
+/*
+# Rank 136,719
+# Date 07/03/2023
+# Runtime: 89 ms, faster than 36.27%
+# Memory Usage: 44.4 MB, less than 74.02%
+*/
