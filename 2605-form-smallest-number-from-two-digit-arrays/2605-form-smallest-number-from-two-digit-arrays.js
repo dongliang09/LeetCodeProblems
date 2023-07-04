@@ -31,6 +31,11 @@ var minNumber = function(nums1, nums2) {
 
 
 /*
+# Rank 135,450
+# Date 07/03/2023
+# Runtime: 71 ms, faster than 18.14%
+# Memory Usage: 43.9 MB, less than 13.49%
+
 =========== test case =========
 [6,4,3,7,2,1,8,5]
 [6,8,5,3,1,7,4,2]
