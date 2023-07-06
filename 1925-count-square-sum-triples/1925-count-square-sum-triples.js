@@ -19,3 +19,11 @@ var countTriples = function(n) {
     return output
     
 };
+
+/*
+
+# Rank 130,529
+# Date 07/06/2023
+# Runtime: 628 ms, faster than 7.81%
+# Memory Usage: 44 MB, less than 15.38%
+*/
