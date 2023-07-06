@@ -21,6 +21,12 @@ var unequalTriplets = function(nums) {
 };
 
 /*
+
+# Rank 130,529
+# Date 07/06/2023
+# Runtime: 64 ms, faster than 91.25%
+# Memory Usage: 41.7 MB, less than 82.50%
+
 ============ first try =====
 
 // need to account for index
