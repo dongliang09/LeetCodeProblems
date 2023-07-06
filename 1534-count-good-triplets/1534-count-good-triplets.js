@@ -22,3 +22,11 @@ var countGoodTriplets = function(arr, a, b, c) {
     return output
     
 };
+
+/*
+
+# Rank 130,529
+# Date 07/06/2023
+# Runtime: 70 ms, faster than 77.48%
+# Memory Usage: 41.8 MB, less than 74.39%
+*/
