@@ -5,6 +5,16 @@
  */
 var minSubArrayLen = function(target, nums) {
     
+    // ============ idea =============
+    // if any of the element inside the array is same as target, the length is 1
+    // otherwise loop through the array,
+    // each element can be starting point, and have a current sum, 
+    // if we add each element and is less than target, then we know the rest won't reach target
+    // if we can reach target, compare to the output (which is Infinity by default) and current count
+    // at the end, if output still infinity, then we know none of them reach output, return 0
+    
+    // ============ code =============
+    
     let output = Infinity
     let isReachedEnd = false
     
