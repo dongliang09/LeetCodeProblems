@@ -40,6 +40,10 @@ var minSubArrayLen = function(target, nums) {
 
 
 /*
+# Rank 131,689
+# Date 07/05/2023
+# Runtime: 2250 ms, faster than 5.05%
+# Memory Usage: 46.2 MB, less than 54.51%
 ============= test case =========
 15
 [1,2,3,4,5]
