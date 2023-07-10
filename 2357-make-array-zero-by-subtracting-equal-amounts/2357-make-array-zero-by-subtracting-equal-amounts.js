@@ -29,3 +29,10 @@ var minimumOperations = function(nums) {
     
     return output
 };
+
+/*
+# Rank 127,866
+# Date 07/10/2023
+# Runtime: 80 ms, faster than 8.55% 
+# Memory Usage: 41.9 MB, less than 77.78%
+*/
