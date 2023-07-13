@@ -25,6 +25,13 @@ ProductOfNumbers.prototype.getProduct = function(k) {
 };
 
 /** 
+
+# Rank 127,549
+# Date 07/12/2023
+# Runtime: 1655 ms, faster than 39.29%
+# Memory Usage:  74.1 MB, less than 55.36%
+
+====================
  * Your ProductOfNumbers object will be instantiated and called as such:
  * var obj = new ProductOfNumbers()
  * obj.add(num)
