@@ -26,6 +26,10 @@ var hammingDistance = function(x, y) {
 };
 
 /*
+# Rank 127,109
+# Date 07/18/2023
+# Runtime: 39 ms, faster than 100.00% 
+# Memory Usage: 42 MB, less than 40.52%
 
 ============ test case ==========
 4
