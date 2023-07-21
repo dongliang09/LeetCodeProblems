@@ -3,10 +3,16 @@
  * @return {number[]}
  */
 var asteroidCollision = function(asteroids) {
+
     
+    // ================= idea ================
+    // asteroids collide when there is a asteroid moving to positive direction and another moving to negative direction
+    // when we have negative asteroids only, no matter what directions of asteroids afterward, they won't collide
+    // so that we only need to have a queue/stack of positive asteroids.
+    
+    // ================= code ================
     let output = []
-    // let isAsteroidComing = false // false means it just exploded, and none is coming, true means some are moving to right
-    
+  
     let index = 0
     let stack = []
     
@@ -56,50 +62,10 @@ var asteroidCollision = function(asteroids) {
 
 /*
 
-================== first try ==============
- should consider overall direction of explosion
- 
-    let output = []
-    let index = 0
-    
-    let stack = []
-    
-    while (index < asteroids.length) {
-        
-        let current = asteroids[index]
-        if (current > 0) {
-            stack.push(current)
-            
-        } else {
-            
-            let isNotExploded = true
-            while(isNotExploded) {
-
-                if ( stack.length === 0 ) {
-                    output.push(current)
-                    break
-                }
-                
-                let lastAsteroid = stack[stack.length - 1]
-                // if current is equal to last asteroid in size, it exploded
-                // if current is greater than last asteroid in size, last asteroid pops
-                // if current is smaller than last asteroid in size, current is exploded
-                
-                if ( Math.abs(current) < lastAsteroid ) {
-                    
-                } else if ( Math.abs(current) === lastAsteroid ) {
-                    stack.pop()
-                    isNotExploded = false
-                } else if ( Math.abs(current) > lastAsteroid ) isNotExploded = false
-            }
-                
-            
-        }
-        
-        index++
-    }
-    
-    return output
+# Rank 126,702
+# Date 07/20/2023
+# Runtime: 81 ms, faster than 22.10%
+# Memory Usage: 43.8 MB, less than 75.61%
 
 
 =========== test case ======
