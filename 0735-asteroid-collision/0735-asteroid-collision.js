@@ -10,6 +10,9 @@ var asteroidCollision = function(asteroids) {
     // when we have negative asteroids only, no matter what directions of asteroids afterward, they won't collide
     // so that we only need to have a queue/stack of positive asteroids.
     
+    // we will loop through each asteroids, when it is positive, push to stack
+    // when it is negative, we will have while loop to see if current asteroid will make stack' asteroid explode or not
+    
     // ================= code ================
     let output = []
   
