@@ -1,5 +1,20 @@
 function validIPAddress(queryIP: string): string {
     
+    // ================ idea =============
+    
+    // if the string contains ".", we can assume we need to validate IPv4
+    // if the string contains ":", we can assume we need to validate IPv6
+    // but if it has both, it is "Neither"
+    
+    // Validate IPv4
+    // it can't contain any letter, must have 4 numbers separated by ".", can't have empty string
+    // number must between 0 and 255, can't have leading zero
+    
+    // Validate IPv6
+    // can't have characters besides 0-9 and a-f
+    
+    // ================ code =============
+    
     const notA2F = 'ghijklmnopqrstuvwxyzGHIJKLMNOPQRSTUVWXYZ';
     const A2F = 'abcdefABCDEF';
     const digits = '0123456789';
@@ -22,6 +37,7 @@ function validIPAddress(queryIP: string): string {
                 if (IP4Split[i].length > 1 && IP4Split[i][0] === "0") return "Neither"
                 
                 if (IP4Split[i] === "")  return "Neither"
+                
                 for(let j = 0; j < IP4Split[i].length; j++) {
                     let currentNum : number = Number(IP4Split[i])
                     if ((A2F.includes(IP4Split[i][j]) || notA2F.includes(IP4Split[i][j]))  || 
@@ -58,7 +74,10 @@ function validIPAddress(queryIP: string): string {
 };
 
 /*
-
+# Rank 126,232
+# Date 07/25/2023
+# Runtime: 69 ms, faster than 7.14%
+# Memory Usage: 42.8 MB, less than 85.71%
 =========== test case ==========
 
 "20.91:0db8:85a3:87.65:9.6:8a2e:370:73.34"
