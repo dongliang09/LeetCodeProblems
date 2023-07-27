@@ -11,3 +11,10 @@ function maximumDifference(nums: number[]): number {
 
     return maxDiff
 };
+
+/*
+# Rank 126,232
+# Date 07/25/2023
+# Runtime: 70 ms, faster than 35.00%
+# Memory Usage: 44.2 MB, less than 40.00% 
+*/
