@@ -15,3 +15,10 @@ function isGood(nums: number[]): boolean {
     
     return true
 };
+
+/*
+# Rank 124,273
+# Date 07/28/2023
+# Runtime: 60 ms, faster than 92.68%
+# Memory Usage: 44.2 MB, less than 87.81%
+*/
