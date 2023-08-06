@@ -13,3 +13,10 @@ function finalPrices(prices: number[]): number[] {
     
     return output
 };
+
+/*
+# Rank 122,976
+# Date 08/05/2023
+# Runtime: 68 ms, faster than 77.05%
+# Memory Usage: 49.1 MB, less than 9.84%
+*/
