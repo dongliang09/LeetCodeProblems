@@ -13,3 +13,9 @@ var largestOddNumber = function(num) {
     return ""
     
 };
+
+/*
+Rank 128,948
+Runtime: 54 ms, faster than 88.28%
+Memory Usage: 45.6 MB, less than 40.96%
+*/
