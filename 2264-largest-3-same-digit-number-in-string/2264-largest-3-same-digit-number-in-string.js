@@ -17,7 +17,12 @@ var largestGoodInteger = function(num) {
     } else {
         return ""
     }
-    
-    
-    
+       
 };
+
+
+/*
+Rank 128,948
+Runtime: 65 ms, faster than 17.37%
+Memory Usage: 42.8 MB, less than 69.49%
+*/
