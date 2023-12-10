@@ -19,3 +19,10 @@ var transpose = function(matrix) {
     return newArr
     
 };
+
+
+/*
+Rank 127,888
+Runtime: 64 ms, faster than 41.98%
+Memory Usage: 44.7 MB, less than 39.57%
+*/
