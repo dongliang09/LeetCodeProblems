@@ -26,6 +26,6 @@ var findSpecialInteger = function(arr) {
 
 /*
 Rank 127,506
-Runtime: 64 ms, faster than 41.98%
-Memory Usage: 44.7 MB, less than 39.57%
+Runtime: 77 ms, faster than 19.68%
+Memory Usage: 48.6 MB, less than 18.09%
 */
