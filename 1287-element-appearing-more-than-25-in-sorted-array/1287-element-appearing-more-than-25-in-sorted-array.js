@@ -23,3 +23,9 @@ var findSpecialInteger = function(arr) {
     //by default return something
     return arr[0]  
 };
+
+/*
+Rank 127,506
+Runtime: 64 ms, faster than 41.98%
+Memory Usage: 44.7 MB, less than 39.57%
+*/
