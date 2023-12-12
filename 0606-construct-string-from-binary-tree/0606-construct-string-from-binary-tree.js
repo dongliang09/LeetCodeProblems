@@ -27,7 +27,9 @@ var tree2str = function(root) {
 
 
 /*
-
+Rank 127,506
+Runtime: 64 ms, faster than 58.56%
+Memory Usage: 47 MB, less than 51.17% 
 
 ================ test case ==========
 [1,2,null,3,4]
