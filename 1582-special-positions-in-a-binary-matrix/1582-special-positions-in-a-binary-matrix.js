@@ -33,3 +33,9 @@ var numSpecial = function(mat) {
     return output
     
 };
+
+/*
+Rank 126,400
+Runtime: 77 ms, faster than 19.68%
+Memory Usage: 48.6 MB, less than 18.09%
+*/
