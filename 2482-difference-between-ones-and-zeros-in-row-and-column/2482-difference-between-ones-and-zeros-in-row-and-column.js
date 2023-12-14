@@ -36,3 +36,9 @@ var onesMinusZeros = function(grid) {
     
     return output
 };
+
+/*
+Rank 126,400
+Runtime: 366 ms, faster than 27.27%
+Memory Usage: 145.9 MB, less than 25.00%
+*/
