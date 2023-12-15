@@ -26,6 +26,9 @@ var destCity = function(paths) {
 
 
 /*
+Rank 125,512
+Runtime: 51 ms, faster than 83.06%
+Memory Usage: 44.7 MB, less than 24.58%
 ====================idea 1 =============================
     //keep doing find one until we can't get null, then that is the destination
     let startCity = paths[0][1];
