@@ -26,11 +26,16 @@ var maxProductDifference = function(nums) {
         } else if (curr < secondMin ) {
             secondMin = curr;
         }
-        
-        
+                
     }
     
     output = firstMax * secondMax - firstMin * secondMin;
     return output
     
 };
+
+/*
+Rank 125,238
+Runtime: 41 ms, faster than 100.00%
+Memory Usage: 44.9 MB, less than 54.85%
+*/
