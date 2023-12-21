@@ -17,3 +17,10 @@ var maxWidthOfVerticalArea = function(points) {
     return output 
     
 };
+
+/*
+Rank: 124,231
+Date: 12/21/2023
+Runtime: 143 ms, faster than 56.34%
+Memory Usage: 62.1 MB, less than 59.15%
+*/
