@@ -1,5 +1,8 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
+        
+        # DS&A with Alex
+        
         # diagram
         # https://github.com/aymak91/ds-a_code_templates/blob/main/ds%26a_flowchart.png
         # backtrack template
@@ -55,3 +58,8 @@ class Solution:
         _backtrack(0)
         
         return res
+    
+    
+# Date: 12/21/2023
+# Runtime: 39 ms, faster than 99.72%
+# Memory Usage: 17.9 MB, less than 6.18% 
