@@ -22,3 +22,8 @@ var isPathCrossing = function(path) {
     
     return false
 };
+
+/*
+Rank
+122,636
+*/
