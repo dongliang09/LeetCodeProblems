@@ -24,6 +24,8 @@ var isPathCrossing = function(path) {
 };
 
 /*
-Rank
-122,636
+Rank 122,636
+Date: 12/22/2023
+Runtime: 53 ms, faster than 49.64%
+Memory Usage: 41.6 MB, less than 94.96%
 */
