@@ -35,7 +35,14 @@ var minOperations = function(s) {
  
 
 /*
-test case 
+
+Rank: 121,540
+Date: 12/23/2023
+Runtime: 113 ms, faster than 5.17% 
+Memory Usage: 48.7 MB, less than 5.17% 
+
+============= test case  =========
+
 "110010"
 "1111"
 "0010"
