@@ -21,14 +21,14 @@ var makeEqual = function(words) {
     
     return isFrequencyEqual
     
-//     console.log(isFrequencyEqual, count[0][1] % words.length === 0)
-    
-//     if (isFrequencyEqual && count[0][1] % words.length === 0) return true
-//     else return false
 };
 
 
 /*
+Date: 12/20/2023
+Runtime: 157 ms, faster than 5.63% 
+Memory Usage: 44.7 MB, less than 70.42%
+
 ============ test case ======
 ["abbab"]
 ["caaaaa","aaaaaaaaa","a","bbb","bbbbbbbbb","bbb","cc","cccccccccccc","ccccccc","ccccccc","cc","cccc","c","cccccccc","c"]
