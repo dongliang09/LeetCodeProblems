@@ -7,6 +7,7 @@ var numberOfBeams = function(bank) {
     let output = 0;
     let allZero = "0".repeat(bank[0].length);
     
+    // if any row is all zero, remove it from array
     for (let i = 0 ; i < bank.length; i++) {
         if (bank[i] === allZero) {
             bank.splice(i, 1);
@@ -38,3 +39,12 @@ var numberOfBeams = function(bank) {
     return output;
     
 };
+
+
+/*
+Rank: 120,972
+Date: 1/2/2024
+Runtime: 155 ms, faster than 7.06% 
+Memory Usage: 49.8 MB, less than 84.71%
+
+*/
