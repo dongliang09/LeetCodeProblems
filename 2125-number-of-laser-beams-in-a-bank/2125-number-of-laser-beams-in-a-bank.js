@@ -44,7 +44,7 @@ var numberOfBeams = function(bank) {
 /*
 Rank: 120,972
 Date: 1/2/2024
-Runtime: 155 ms, faster than 7.06% 
+Runtime: 75 ms, faster than 78.82%
 Memory Usage: 49.8 MB, less than 84.71%
 
 */
