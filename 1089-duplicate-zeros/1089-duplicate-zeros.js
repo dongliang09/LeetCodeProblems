@@ -11,3 +11,9 @@ var duplicateZeros = function(arr) {
         }
     }
 };
+
+/*
+Date: 1/6/2024
+Runtime: 67 ms, faster than 46.77%
+Memory Usage: 44.2 MB, less than 41.01% 
+*/
