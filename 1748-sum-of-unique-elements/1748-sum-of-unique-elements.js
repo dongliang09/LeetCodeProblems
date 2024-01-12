@@ -24,3 +24,10 @@ var sumOfUnique = function(nums) {
     
     return sum
 };
+
+
+/*
+Date: 1/11/2024
+Runtime: 50 ms, faster than 70.82% 
+Memory Usage: 42 MB, less than 53.98% 
+*/
