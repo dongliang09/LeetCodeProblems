@@ -48,6 +48,9 @@ var minSteps = function(s, t) {
 };
 
 /*
+Date: 1/13/2024
+Runtime: 141 ms, faster than 47.46%
+Memory Usage: 48.2 MB, less than 40.11% 
 
 
 ================== first try on count diff ===================
