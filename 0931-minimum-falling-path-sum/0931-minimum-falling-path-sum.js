@@ -35,12 +35,14 @@ var minFallingPathSum = function(matrix) {
         tableSum[0][i] = matrix[0][i];
     }
     
+    //use helper function to update sum table if new sum is smaller
     for (let i = 0; i < matrix.length - 1; i++) {
         for (let j = 0; j < matrix[i].length; j++) {
             updateSumTable(i,j)
         }
     }
     
+    // compare the last row's sum to see which one is smaller
     for (let i = 0; i < matrix[0].length; i++) {
         if (tableSum[matrix.length - 1][i] < output) output = tableSum[matrix.length - 1][i];
     }
