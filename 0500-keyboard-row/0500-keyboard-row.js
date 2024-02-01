@@ -21,3 +21,10 @@ var findWords = function(words) {
     
     return output
 };
+
+/*
+Date: 01/31/2024
+Rank: 120,649
+Runtime: 53 ms, faster than 48.31% 
+Memory Usage: 48.7 MB, less than 17.12% 
+*/
