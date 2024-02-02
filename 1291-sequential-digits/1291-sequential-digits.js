@@ -7,6 +7,8 @@ var sequentialDigits = function(low, high) {
     
     let output = [];
     
+    // generate number with that starting number and length
+    // return number if found, else return undefined
     function generateNum (startingNum, length) {
         let num = startingNum;
         let str = startingNum.toString();
@@ -36,3 +38,9 @@ var sequentialDigits = function(low, high) {
     return output
     
 };
+
+/*
+Date: 2/2/2024
+Runtime: 45 ms, faster than 84.62%
+Memory Usage: 48.8 MB, less than 5.13%
+*/
