@@ -14,3 +14,10 @@ var percentageLetter = function(s, letter) {
     return Math.floor(count / s.length * 100)
     
 };
+
+/*
+Date: 02/08/2024
+Rank 119,973
+Runtime: 54 ms, faster than 43.49%
+Memory Usage: 49.1 MB, less than 5.68%
+*/
