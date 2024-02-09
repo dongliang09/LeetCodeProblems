@@ -25,3 +25,10 @@ var numberOfPairs = function(nums) {
     return output
     
 };
+
+/*
+Date: 02/08/2024
+Rank 119,973
+Runtime: 54 ms, faster than 60.25% 
+Memory Usage: 48.7 MB, less than 40.57% 
+*/
