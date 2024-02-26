@@ -49,3 +49,10 @@ var pathSum = function(root, targetSum) {
     return output
     
 };
+
+/*
+Date: 02/25/2024
+Rank: 120,377
+Runtime: 79 ms, faster than 25.87% 
+Memory Usage: 63.2 MB, less than 5.31% 
+*/
