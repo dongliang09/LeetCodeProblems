@@ -37,7 +37,12 @@ var findBottomLeftValue = function(root) {
     }
     
     return output
-    
-    
-    
+     
 };
+
+/*
+Date: 02/27/2024
+Rank: 120,006
+Runtime: 63 ms, faster than 62.57% 
+Memory Usage: 53.9 MB, less than 26.32%
+*/
