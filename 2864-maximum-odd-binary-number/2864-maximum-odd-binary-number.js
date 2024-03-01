@@ -25,3 +25,10 @@ var maximumOddBinaryNumber = function(s) {
     return output;
     
 };
+
+/*
+Date: 2/29/2024
+Rank: 119,680
+Runtime: 80 ms, faster than 39.06%
+Memory Usage: 52 MB, less than 84.71%
+*/
