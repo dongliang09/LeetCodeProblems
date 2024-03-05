@@ -48,3 +48,9 @@ var minimumLength = function(s) {
     return endIndex - startIndex + 1 > 0 ? endIndex - startIndex + 1 : 0;
     
 };
+
+/*
+Date: 3/4/2024
+Runtime: 91 ms, faster than 13.16%
+Memory Usage: 56.7 MB, less than 18.42% 
+*/
