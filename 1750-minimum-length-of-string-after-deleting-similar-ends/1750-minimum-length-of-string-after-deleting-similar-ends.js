@@ -6,6 +6,9 @@ var minimumLength = function(s) {
     
     //---------- helper function --------
     function sameLetter(index, isDirectionRight) {
+        // this function is used to check if the previous/next letter is same as the letter with given index
+        // if it is same, return the last index of same letter
+        
         let currIndex = index;
         let isNextLetterSame;
         
