@@ -41,6 +41,10 @@ var mostCommonWord = function(paragraph, banned) {
 
 
 /*
+Date: 3/5/2024
+Rank: 114,880
+Runtime: 57 ms, faster than 71.96%
+Memory Usage: 51 MB, less than 52.78% 
 ============== test case ==========
 "a, a, a, a, b,b,b,c, c"
 ["a"]
