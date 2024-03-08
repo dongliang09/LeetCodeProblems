@@ -17,8 +17,6 @@ var hasGroupsSizeX = function(deck) {
     
     freqEntries = Object.entries(freqObj).sort((a,b)=>a[1]-b[1]);
     
-    // console.log(freqEntries, isFreqEven)
-    
     x = freqEntries[0][1];
     if (x === 1) return false
     
@@ -30,13 +28,11 @@ var hasGroupsSizeX = function(deck) {
         }
     }
     
-    // console.log(isFreqEven)
-    
     if (isFreqEven) return true
     
     // else if frquency is odd
-    
-    for (let i = 3; i <= x; i++) {
+    // divider starts with 3, increment by 2 each time, test if every number is divisible by divider
+    for (let i = 3; i <= x; i+=2) {
         isDivisible = true
         for ( let j = 0; j < freqEntries.length; j++) {     
             if (freqEntries[j][1] % i !== 0) {
@@ -47,13 +43,15 @@ var hasGroupsSizeX = function(deck) {
         if (isDivisible) return true
     }  
     
-    
-
     return false
 };
 
 
 /*
+Date: 3/8/2024
+Runtime: 63 ms, faster than 51.82% 
+Memory Usage: 51.3 MB, less than 70.00%
+
 ============== test case ===========
 [1]
 [1,1,2,2,2,2]
