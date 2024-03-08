@@ -26,3 +26,10 @@ var maxFrequencyElements = function(nums) {
     return output
     
 };
+
+
+/*
+Date: 3/7/2024
+Runtime: 76 ms, faster than 9.29% 
+Memory Usage: 50.9 MB, less than 46.70%
+*/
