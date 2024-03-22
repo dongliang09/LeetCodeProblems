@@ -38,22 +38,25 @@ var mergeInBetween = function(list1, a, b, list2) {
         currNode = currNode.next
     }
     
-    // console.log(list1, currList1Node)
-    
     // find the bth node in list 1
     while (list1Count < b + 1) {
         currList1Node = currList1Node.next;
         list1Count++;
     }
-    // console.log(currList1Node.val)
     
-    // connect list 2 to bth node of list 1
+    // connect list 2 to bth node of list 1, and no need to go through the rest of linked list
     currNode.next = currList1Node;
     currNode = currList1Node;
-    
-    // console.log(currNode.val)
     
     return list1
     
     
 };
+
+/*
+Date: 3/21/2024
+Rank: 113,559
+Runtime: 143 ms, faster than 86.48% 
+Memory Usage: 61.6 MB, less than 86.75% 
+
+*/
