@@ -41,3 +41,9 @@ var maxDepth = function(root) {
     return output
     
 };
+
+/*
+Date: 03/29/2024
+Runtime: 65 ms, faster than 62.91% 
+Memory Usage: 52.7 MB, less than 54.48%
+*/
