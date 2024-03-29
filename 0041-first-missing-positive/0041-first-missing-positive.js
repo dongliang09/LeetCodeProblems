@@ -58,6 +58,11 @@ var firstMissingPositive = function(nums) {
 };
 
 /*
+Date: 3/29/2024
+Rank: 112,824
+Runtime: 72 ms, faster than 67.18% 
+Memory Usage: 67.6 MB, less than 19.88%
+
 ============== test case ==========
 [1,2,3,4,5,6,7,8,9,20]
 
