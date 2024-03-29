@@ -4,8 +4,6 @@
  */
 var checkRecord = function(s) {
     
-    let countLate = 0;
-    let isLateMoreThan3 = false;
     let countAbsent = 0;
     
     for (let i = 0; i < s.length; i++) {
@@ -20,3 +18,9 @@ var checkRecord = function(s) {
     return true
     
 };
+
+/*
+Date: 3/28/2024
+Runtime: 44 ms, faster than 94.24%
+Memory Usage: 49.6 MB, less than 15.85%
+*/
