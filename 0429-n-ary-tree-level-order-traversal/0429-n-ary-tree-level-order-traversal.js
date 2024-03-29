@@ -39,3 +39,10 @@ var levelOrder = function(root) {
     return output
     
 };
+
+/*
+Date: 03/29/2024
+Rank: 112,824
+Runtime: 62 ms, faster than 98.64% 
+Memory Usage: 53 MB, less than 93.88%
+*/
