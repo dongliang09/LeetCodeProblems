@@ -35,11 +35,9 @@ var firstMissingPositive = function(nums) {
     
     // take the midpoint, and set new lower bound or upper bound
     // if the nums equal to the index, search the right side, otherwise, search the left
-    // set lower bound and upper bound
+    // by setting lower bound and upper bound
     while (!isMissingFound) {
-        // console.log("every", lowerBound,upperBound,nonDuplicateArr.slice(lowerBound, upperBound+1));
         currIndex = lowerBound + Math.floor((upperBound - lowerBound) / 2);
-        // console.log(currIndex)
         if (nonDuplicateArr[currIndex] === currIndex + 1) {
             lowerBound = currIndex;
         } else {
@@ -48,7 +46,8 @@ var firstMissingPositive = function(nums) {
         
         if (upperBound - lowerBound < 2) {
             isMissingFound = true;
-            // console.log("lowerBound", lowerBound,upperBound,nonDuplicateArr.slice(lowerBound, upperBound+1));
+            // since it is already from 1 to whatever, the lowerbound is always correct
+            // so no need to worry the other when we have two numbers left
             if (nonDuplicateArr[lowerBound] === lowerBound + 1) return nonDuplicateArr[lowerBound] + 1
             break;
         }
