@@ -9,6 +9,11 @@ var convertToBase7 = function(num) {
 };
 
 /*
+Date: 3/28/2024
+Runtime: 46 ms, faster than 85.96% 
+Memory Usage: 48.7 MB, less than 69.59%
+
+=================== second try =========
 
     let len = 1
     let noSignNum = Math.abs(num)
