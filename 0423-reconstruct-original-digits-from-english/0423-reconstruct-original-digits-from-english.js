@@ -139,6 +139,11 @@ var originalDigits = function(s) {
 };
 
 /*
+Date: 4/1/2024
+Rank: 111,229
+Runtime: 82 ms, faster than 64.29% 
+Memory Usage: 56.2 MB, less than 67.86%
+
 ============ test case ======
 "nnei"
 
