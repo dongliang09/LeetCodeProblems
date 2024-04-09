@@ -15,6 +15,7 @@ var timeRequiredToBuy = function(tickets, k) {
                 currCount++;
                 if (tickets[i] > 0) tickets[i]--;
             }
+            // if kth element goes to 0, no need to continute the rest
             if (tickets[k] <= 0) {
                 break;
             }
@@ -26,3 +27,10 @@ var timeRequiredToBuy = function(tickets, k) {
     return output
     
 };
+
+/*
+Date: 04/08/2024
+Rank: 109,492
+Runtime: 53 ms, faster than 66.12% 
+Memory Usage: 48.9 MB, less than 69.95% 
+*/
