@@ -21,3 +21,9 @@ var selfDividingNumbers = function(left, right) {
     
     return output
 };
+
+/*
+Date: 04/12/2024
+Runtime: 58 ms, faster than 57.09% 
+Memory Usage: 51.1 MB, less than 44.40%
+*/
