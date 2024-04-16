@@ -51,6 +51,12 @@ var addOneRow = function(root, val, depth) {
 };
 
 /*
+Date: 04/15/2024
+Rank: 109,327
+Runtime: 83 ms, faster than 18.42% 
+Memory Usage: 55.8 MB, less than 32.89%
+
+============ test case =======
 [4,2,6,3,1,5]
 1
 1
