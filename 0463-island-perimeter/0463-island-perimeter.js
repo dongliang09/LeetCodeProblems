@@ -43,6 +43,10 @@ var islandPerimeter = function(grid) {
 };
 
 /*
+Date: 4/17/2024
+Rank: 109,020
+Runtime: 145 ms, faster than 35.79% 
+Memory Usage: 56.8 MB, less than 98.01%
 ============first try ============
     let count = 0;
     let rowCount = 0;
