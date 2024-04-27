@@ -21,3 +21,9 @@ var numberOfSpecialChars = function(word) {
     return output
     
 };
+
+/*
+Date: 04/26/2024
+Runtime: 60 ms, faster than 81.72% 
+Memory Usage: 51.2 MB, less than 73.31% 
+*/
