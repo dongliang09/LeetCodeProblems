@@ -14,3 +14,10 @@ var reversePrefix = function(word, ch) {
     }
     
 };
+
+/*
+Date: 5/1/2024
+Rank: 109,638
+Runtime: 47 ms, faster than 83.72% 
+Memory Usage: 48.5 MB, less than 84.50%
+*/
