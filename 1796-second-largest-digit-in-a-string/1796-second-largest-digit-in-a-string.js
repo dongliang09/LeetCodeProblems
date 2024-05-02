@@ -20,3 +20,9 @@ var secondHighest = function(s) {
         return arr[arr.length - 2];
     }
 };
+
+/*
+Date: 5/1/2024
+Runtime: 61 ms, faster than 46.74% 
+Memory Usage: 50.7 MB, less than 62.50%
+*/
