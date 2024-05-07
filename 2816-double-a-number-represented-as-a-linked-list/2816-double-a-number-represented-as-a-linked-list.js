@@ -56,3 +56,10 @@ var doubleIt = function(head) {
     
     return head
 };
+
+/*
+Date: 05/07/2024
+Rank: 109,122
+Runtime: 154 ms, faster than 100.00%
+Memory Usage: 61.6 MB, less than 66.40%
+*/
