@@ -34,3 +34,9 @@ var isValid = function(word) {
     
     
 };
+
+/*
+Date: 5/8/2024
+Runtime: 63 ms, faster than 46.52% 
+Memory Usage: 49.3 MB, less than 93.48%
+*/
