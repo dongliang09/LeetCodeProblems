@@ -11,24 +11,18 @@
  * @param {number} target
  * @return {TreeNode}
  */
-var removeLeafNodes = function(root, target, parent) {
+var removeLeafNodes = function(root, target) {
     
     
-    if (root === null ) return 
+    if (root === null ) return null
     
     // call all the nodes
-    removeLeafNodes(root.left, target, root)
-    removeLeafNodes(root.right, target, root)
+    root.left = removeLeafNodes(root.left, target)
+    root.right = removeLeafNodes(root.right, target)
     
     // modify if leaf node value equals to target
-    if (parent !== undefined && root.val === target && root.left === null && root.right === null) {
-        if (parent.left === root) parent.left = null
-        else if (parent.right === root) parent.right = null
-        return
-    }
-    // edge case where the original root is equal to target
-    if (parent === undefined && root.left === null && root.right === null && root.val === target) return null
-    
+    if (root.val === target && root.left === null && root.right === null) return null
+
     return root
 };
 
