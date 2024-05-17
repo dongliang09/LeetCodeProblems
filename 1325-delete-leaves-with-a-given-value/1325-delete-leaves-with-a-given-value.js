@@ -16,16 +16,17 @@ var removeLeafNodes = function(root, target, parent) {
     
     if (root === null ) return 
     
-    
+    // call all the nodes
     removeLeafNodes(root.left, target, root)
     removeLeafNodes(root.right, target, root)
     
+    // modify if leaf node value equals to target
     if (parent !== undefined && root.val === target && root.left === null && root.right === null) {
         if (parent.left === root) parent.left = null
         else if (parent.right === root) parent.right = null
         return
     }
-    
+    // edge case where the original root is equal to target
     if (parent === undefined && root.left === null && root.right === null && root.val === target) return null
     
     return root
@@ -33,6 +34,10 @@ var removeLeafNodes = function(root, target, parent) {
 
 
 /*
+Date: 05/17/2024
+Rank: 108,801
+Runtime: 72 ms, faster than 64.26% 
+Memory Usage: 54 MB, less than 37.87%
 
 =================== test case ================
 
