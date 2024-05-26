@@ -31,3 +31,9 @@ var subsets = function(nums) {
     return output
     
 };
+
+/*
+Date: 05/25/2025
+Runtime: 2210 ms, faster than 5.78% 
+Memory Usage: 56.8 MB, less than 5.17%
+*/
