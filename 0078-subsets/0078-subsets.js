@@ -4,6 +4,8 @@
  */
 var subsets = function(nums) {
         
+    //--------------- helper function  ------------
+    
     function findSubsets(nums) {
         
         let array = []
@@ -22,6 +24,8 @@ var subsets = function(nums) {
         
         return array
     }
+    
+    //--------------- main function call ------------
     
     let set = new Set()
     set.add(nums.toString())
