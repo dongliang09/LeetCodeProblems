@@ -41,6 +41,10 @@ var equalSubstring = function(s, t, maxCost) {
 
 
 /*
+Date: 6/1/2024
+Rank: 108,563
+Runtime: 56 ms, faster than 83.76% 
+Memory Usage: 54.7 MB, less than 9.18%
 ============== test case =========
 "krrgw"
 "zjxss"
