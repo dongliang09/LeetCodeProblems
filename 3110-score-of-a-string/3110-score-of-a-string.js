@@ -18,3 +18,8 @@ var scoreOfString = function(s) {
     return output
     
 };
+
+/*
+Date: 05/31/2024
+Runtime: 74 ms, faster than 9.81%
+Memory Usage: 51.1 MB, less than 22.50%*/
