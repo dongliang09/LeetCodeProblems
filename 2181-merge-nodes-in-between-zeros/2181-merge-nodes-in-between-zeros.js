@@ -15,6 +15,7 @@ var mergeNodes = function(head) {
     let headNode = new ListNode()
     let currNode = headNode
     
+    // skip first node
     let curr = head.next
     
     while (curr !== null) {
@@ -32,11 +33,18 @@ var mergeNodes = function(head) {
             sum += curr.val
         }
         
+        //update current node with next node
         curr = curr.next
-        
-        
+ 
     }
     
     return headNode
     
 };
+
+/*
+Date: 07/03/2024
+Rank: 110,381
+Runtime: 516 ms, faster than 53.92%
+Memory Usage: 102 MB, less than 22.55%
+*/
