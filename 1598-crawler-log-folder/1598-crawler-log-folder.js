@@ -20,3 +20,9 @@ var minOperations = function(logs) {
     return output
     
 };
+
+/*
+Date: 07/09/2024
+Runtime: 69 ms, faster than 6.20% 
+Memory Usage: 49.2 MB, less than 66.53% 
+*/
