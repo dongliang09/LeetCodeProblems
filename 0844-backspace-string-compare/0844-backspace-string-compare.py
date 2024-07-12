@@ -24,6 +24,11 @@ class Solution:
             return True
         else:
             return False
+        
+    # ===============================
+    # Date: 07/11/2024
+    # Runtime: 34 ms, faster than 68.25% 
+    # Memory Usage: 16.5 MB, less than 23.20%
   
     # =========== first try ==========
     #         strS = []
