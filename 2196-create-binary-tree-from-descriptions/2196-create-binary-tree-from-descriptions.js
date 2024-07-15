@@ -18,6 +18,7 @@ var createBinaryTree = function(descriptions) {
     let parentSet = new Set()
     let childSet = new Set()
     
+    // store each tree node into object
     for (let i = 0; i < descriptions.length; i++) {
         
         let [parent, child, isLeft] = descriptions[i];
@@ -27,7 +28,6 @@ var createBinaryTree = function(descriptions) {
         
         if (treeNodeObj[parent] === undefined) {
             treeNodeObj[parent] = new TreeNode(parent)
-            // head = treeNodeObj[parent]
         } 
         
         if (isLeft) {
@@ -46,9 +46,7 @@ var createBinaryTree = function(descriptions) {
         }
     }
     
-//     let rootVal = [...parentSet].find(element => [...childSet].indexOf(element) === -1)
-    
-//     head = treeNodeObj[rootVal]
+    // find root value
     for (const element of childSet) {
         parentSet.delete(element);
     }
