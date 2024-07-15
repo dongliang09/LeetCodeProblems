@@ -58,6 +58,11 @@ var createBinaryTree = function(descriptions) {
 };
 
 /*
+Date: 07/15/2024
+Rank: 110,207
+Runtime: 380 ms, faster than 31.43%
+Memory Usage: 77.7 MB, less than 71.43%
+
 ============ test case ===========
 [[85,82,1],[74,85,1],[39,70,0],[82,38,1],[74,39,0],[39,13,1]]
 */
