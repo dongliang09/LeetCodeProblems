@@ -14,23 +14,22 @@
 var delNodes = function(root, to_delete) {
     
     let outputObj = {}
-    
-    // if (to_delete.indexOf(root.val) !== -1 )
-    
+        
     outputObj[root.val] = root
     
     let stack = [root];
     
     while (stack.length) {
         let curr = stack.pop();
-        
+    
+        // if current val is in to_delete list
         if (to_delete.indexOf(curr.val) !== -1 ) {
             delete outputObj[curr.val]
             if (curr.left !== null) outputObj[curr.left.val] = curr.left
             if (curr.right !== null) outputObj[curr.right.val] = curr.right
         }
             
-        
+        // find neighbors
         if (curr.left !== null) {
             stack.push(curr.left)
         }
@@ -38,6 +37,7 @@ var delNodes = function(root, to_delete) {
             stack.push(curr.right)
         }
         
+        // check any child node's values is in to_delete list
         if (curr.left !== null && to_delete.indexOf(curr.left.val) !== -1) {
             let currLeft = curr.left
             if (currLeft.left !== null)
@@ -57,9 +57,14 @@ var delNodes = function(root, to_delete) {
             curr.right = null
         } 
     }
-
-    // console.log(outputObj)
     
     return Object.values(outputObj)
     
 };
+
+/*
+Date: 07/17/2024
+Rank: 109,973
+Runtime: 100 ms, faster than 8.86%
+Memory Usage: 58.2 MB, less than 13.50%
+*/
