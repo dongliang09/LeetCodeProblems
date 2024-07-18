@@ -45,8 +45,6 @@ var getDirections = function(root, startValue, destValue) {
             stack.push(curr.right)
         }
     }
-    
-    // console.log(startNode.path, destNode.path)
 
     // find the lowest common ancestor node's position
     let shortestPathLength = startNodePath.length < destNodePath.length ? startNodePath.length : destNodePath.length;
@@ -57,17 +55,23 @@ var getDirections = function(root, startValue, destValue) {
             break;
         }
     }
-    
-    // console.log(LCA_Position, startNodePath, destNodePath)
+
+    // take care the left part from start node to LCA node
     let upArr = new Array(startNodePath.length - LCA_Position).fill('U')
     output = upArr.join("");
 
+    //take care right part from LCA node to dest node
     output += destNodePath.slice(LCA_Position)
     
     return output
 };
 
 /*
+Date: 07/18/2024
+Rank: 109,644
+Runtime: 241 ms, faster than 64.03% 
+Memory Usage: 86.9 MB, less than 98.15% 
+
 ============== test case ==============
 [5,8,3,1,null,4,7,6,null,null,null,null,null,null,2]
 4
