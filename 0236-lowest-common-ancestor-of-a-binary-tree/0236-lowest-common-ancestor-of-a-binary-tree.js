@@ -55,11 +55,10 @@ var lowestCommonAncestor = function(root, p, q) {
         }
     }
     
-    // console.log(LCA_Position, pNodePath, qNodePath)
-    
     // trace down the tree according to position
     let counter = 0
     let currNode = root
+    
     while (counter < LCA_Position) {
         if (pNodePath[counter] === 'L') currNode = currNode.left
         else currNode = currNode.right
@@ -67,6 +66,7 @@ var lowestCommonAncestor = function(root, p, q) {
     }
     
     output = currNode
+    
     return output
     
     
@@ -75,17 +75,9 @@ var lowestCommonAncestor = function(root, p, q) {
 
 
 /*
-
-========================
-
-    let stack = [root];
-    let visited = new Set();
-    
-    while (stack.length) {
-        let curr = stack.pop();
-        
-        if (curr.left)
-    }
-
+Date: 07/18/2024
+Rank: 109,644
+Runtime: 85 ms, faster than 9.91%
+Memory Usage: 61.7 MB, less than 5.03%
 
 */
