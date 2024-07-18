@@ -13,6 +13,7 @@
  * @return {TreeNode}
  */
 var lowestCommonAncestor = function(root, p, q) {
+    
     let output
     let isPFound = false, isQFound = false
     let pNodePath = "", qNodePath = ""
@@ -69,3 +70,11 @@ var lowestCommonAncestor = function(root, p, q) {
     
     return output
 };
+
+/*
+Date: 07/18/2024
+Rank: 109,644
+Runtime: 95 ms, faster than 5.31%
+Memory Usage: 62.1 MB, less than 6.86%
+
+*/
