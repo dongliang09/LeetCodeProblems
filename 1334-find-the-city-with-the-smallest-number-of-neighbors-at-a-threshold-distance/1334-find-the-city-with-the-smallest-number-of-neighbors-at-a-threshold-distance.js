@@ -109,12 +109,10 @@ var findTheCity = function(n, edges, distanceThreshold) {
         }
     }
     
-    
     for (const city of Object.keys(cityCountObj)) {
         cityCountObj[city] = Dijkstra(graphObj, city, distanceThreshold)
     }
     
-    console.log(cityCountObj)
     let cityDistanceArr = Object.values(cityCountObj).sort((a,b)=>a-b)
     let leastNumber = cityDistanceArr[0]
     
@@ -123,22 +121,20 @@ var findTheCity = function(n, edges, distanceThreshold) {
         if (cityCountObj[city] === leastNumber) qualifiedCities.push(city)
     }
     
-    console.log(qualifiedCities)
-    
     if (qualifiedCities.length !== 1) {
         qualifiedCities.sort((a,b)=>Number(b)-Number(a))  
     } 
     return Number(qualifiedCities[0])
-    
-    
-    
-    
     
 };
 
 
 
 /*
+Date: 07/26/2024
+Rank: 108,909
+Runtime: 272 ms, faster than 17.39% 
+Memory Usage: 58.5 MB, less than 49.27% 
 =========== test case =============
 6
 [[0,3,7],[2,4,1],[0,1,5],[2,3,10],[1,3,6],[1,2,1]]
