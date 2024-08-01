@@ -38,4 +38,8 @@ class Solution:
             head = head.next
             
         return max_sum
+    
+    # Date: 08/01/2024
+    # Runtime: 332 ms, faster than 74.81%
+    # Memory Usage: 38.2 MB, less than 67.70%
         
