@@ -19,7 +19,7 @@ class Solution:
             # 2. root.right = root.left 
             # 3. left's tail.right = temp
             # 4. cleanup: root.left = None 
-            # 5. find the tail
+            # 5. find the tail [ Node, left_tail, right_tail ]
                 # if right_tail exists, it is right
                 # elif left_tail exist, it is left
                 # else curr node
@@ -46,3 +46,7 @@ class Solution:
                 return node
             
         _dfs(root)
+        
+        # Date: 08/01/2024
+        # Runtime: 32 ms, faster than 90.77% 
+        # Memory Usage: 16.8 MB, less than 30.33%
