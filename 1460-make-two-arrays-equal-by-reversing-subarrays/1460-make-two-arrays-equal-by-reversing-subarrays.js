@@ -14,3 +14,9 @@ var canBeEqual = function(target, arr) {
     
     return true
 };
+
+/*
+Date: 08/02/2024
+Runtime: 62 ms, faster than 53.33%
+Memory Usage: 50.9 MB, less than 67.22%
+*/
