@@ -22,3 +22,9 @@ var kthDistinct = function(arr, k) {
     return singleArr[k-1]
     
 };
+
+/*
+Date: 08/05/2024
+Runtime: 52 ms, faster than 97.45% 
+Memory Usage: 52.8 MB, less than 46.43% 
+*/
