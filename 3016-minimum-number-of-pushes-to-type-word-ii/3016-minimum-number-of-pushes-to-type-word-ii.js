@@ -12,29 +12,28 @@ var minimumPushes = function(word) {
         else freqObj[letter]++;
     }
     
-    
+    // since we only cares about the frequency, so we don't need the letter
     let freq = Object.values(freqObj).sort((a,b)=> b - a)
     let output = 0;
-    // console.log(freq)
-    
+
+    // based on the length of the frequency array, add the frequency * number of button push
     
     for(let i = 0; i < Math.min(8, freq.length); i++) {
         output += freq[i]
     }
     
-    // console.log(output)
     if (freq.length >= 8) {
         for(let i = 8; i < Math.min(16, freq.length); i++) {
             output += (freq[i] * 2)
         }
     }
-    // console.log(output)
+
     if (freq.length >= 16) {
         for(let i = 16; i < Math.min(24, freq.length); i++) {
             output += (freq[i] * 3)
         }
     } 
-    // console.log(output)
+
     if (freq.length > 24)  {
         for(let i = 24; i < Math.min(26, freq.length); i++) {
             output += (freq[i] * 4)
@@ -44,3 +43,9 @@ var minimumPushes = function(word) {
     return output
     
 };
+
+/*
+Date: 08/05/2024
+Runtime: 185 ms, faster than 52.00%
+Memory Usage: 60.2 MB, less than 76.00%
+*/
