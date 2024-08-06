@@ -6,6 +6,7 @@ var minimumPushes = function(word) {
     
     let freqObj = {}
     
+    //count frequency
     for (let i = 0; i < word.length; i++) {
         let letter = word[i]
         if (freqObj[letter] ===  undefined) freqObj[letter] = 1;
@@ -34,7 +35,7 @@ var minimumPushes = function(word) {
         }
     } 
 
-    if (freq.length > 24)  {
+    if (freq.length >= 24)  {
         for(let i = 24; i < Math.min(26, freq.length); i++) {
             output += (freq[i] * 4)
         }
