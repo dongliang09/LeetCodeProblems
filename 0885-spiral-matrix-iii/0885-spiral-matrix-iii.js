@@ -37,8 +37,6 @@ var spiralMatrixIII = function(rows, cols, rStart, cStart) {
             count++;
         }
         
-        // console.log("dir",direction, "pos",currX, currY, "dis",distance, "curr",currDist, "T/F", isDistanceRepeated)
-        
         if (direction === 0) {
             currY ++;
         } else if (direction === 1) {
@@ -70,18 +68,15 @@ var spiralMatrixIII = function(rows, cols, rStart, cStart) {
                 direction = 0
             } 
             
-        }
-        
-        // console.log()
-        
-        
+        }      
         
     }
     
     return output
-    
-    
-    
-    
-    
-};
+}    
+/*
+Date: 08/08/2024
+Rank: 108,026
+Runtime: 90 ms, faster than 84.21% 
+Memory Usage: 58 MB, less than 73.68% 
+*/
