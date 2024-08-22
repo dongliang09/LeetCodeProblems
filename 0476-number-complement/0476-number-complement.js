@@ -18,7 +18,6 @@ var findComplement = function(num) {
         curr /= 2;
     }
     
-    // console.log(remainderArr)
     
     for ( let i = 0; i < remainderArr.length; i++) {
         let curr = remainderArr[remainderArr.length - i - 1];
@@ -26,9 +25,14 @@ var findComplement = function(num) {
         complementArr.push(complement)
     }
     
-    // console.log(complementArr)
     
     output = parseInt(complementArr.join(''), 2)
     
     return output
 };
+
+/*
+Date: 08/21/2024
+Runtime: 61 ms, faster than 16.00% 
+Memory Usage: 49.2 MB, less than 19.50%
+*/
