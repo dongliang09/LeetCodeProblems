@@ -19,3 +19,9 @@ var construct2DArray = function(original, m, n) {
     return output
     
 };
+
+/*
+Date: 08/31/2024
+Runtime: 177 ms, faster than 69.54% 
+Memory Usage: 69.5 MB, less than 73.60%
+*/
