@@ -112,3 +112,10 @@ var spiralMatrix = function(m, n, head) {
     
     
 };
+
+/*
+Date: 9/9/2024
+Rank: 110,357
+Runtime: 787 ms, faster than 5.40% 
+Memory Usage: 88 MB, less than 59.46% 
+*/
