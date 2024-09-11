@@ -21,3 +21,9 @@ var minBitFlips = function(start, goal) {
     
     return output
 };
+
+/*
+Date: 9/11/2024
+Runtime: 58 ms, faster than 32.61% 
+Memory Usage: 48.9 MB, less than 63.77%
+*/
