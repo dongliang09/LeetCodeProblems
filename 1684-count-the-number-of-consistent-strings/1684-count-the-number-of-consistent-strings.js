@@ -25,3 +25,9 @@ var countConsistentStrings = function(allowed, words) {
     return output
     
 };
+
+/*
+Date: 09/11/2024
+Runtime: 64 ms, faster than 99.17% 
+Memory Usage: 57.7 MB, less than 94.49% 
+*/
