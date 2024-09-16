@@ -27,3 +27,9 @@ var findMinDifference = function(timePoints) {
     return output
     
 };
+
+/*
+Date: 09/15/2024
+Runtime: 61 ms, faster than 89.80% 
+Memory Usage: 52.5 MB, less than 61.22% 
+*/
