@@ -15,3 +15,9 @@ var lexicalOrder = function(n) {
     return output
     
 };
+
+/*
+Date: 09/20/2024
+Runtime: 63 ms, faster than 97.32% 
+Memory Usage: 59 MB, less than 25.00% 
+*/
