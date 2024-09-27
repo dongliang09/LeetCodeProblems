@@ -6,6 +6,9 @@ var stringMatching = function(words) {
     
     let output = [];
     
+    // sort the array by length from shortest to longest
+    // that way, we only need to compare the ones that is longer than the current word
+
     words.sort((a,b)=>a.length - b.length);
     
     for (let i = 0; i < words.length; i++) {
@@ -23,3 +26,9 @@ var stringMatching = function(words) {
     return output
     
 };
+
+/*
+Date: 09/27/2024
+Runtime: 52 ms, faster than 82.28% 
+Memory Usage: 48.8 MB, less than 91.25%
+*/
