@@ -88,3 +88,9 @@ MyCircularDeque.prototype.isFull = function() {
  * var param_7 = obj.isEmpty()
  * var param_8 = obj.isFull()
  */
+
+/*
+Date: 09/28/2024
+Runtime: 98 ms, faster than 56.06% 
+Memory Usage: 58.3 MB, less than 72.73%
+*/
