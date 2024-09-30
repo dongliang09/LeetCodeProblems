@@ -44,3 +44,9 @@ CustomStack.prototype.increment = function(k, val) {
  * var param_2 = obj.pop()
  * obj.increment(k,val)
  */
+
+/*
+Date: 09/29/2024
+Runtime: 86 ms, faster than 95.00% 
+Memory Usage: 58.6 MB, less than 40.00%
+*/
