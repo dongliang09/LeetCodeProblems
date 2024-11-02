@@ -24,3 +24,10 @@ var isCircularSentence = function(sentence) {
     return output
     
 };
+
+/*
+Date: 11/01/2024
+Rank: 113,029
+Runtime: 0 ms, faster than 100.00% 
+Memory Usage: 48.5 MB, less than 94.95% 
+*/
