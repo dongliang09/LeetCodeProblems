@@ -27,3 +27,9 @@ var calPoints = function(operations) {
     return output
     
 };
+
+/*
+Date: 11/13/2024
+Runtime: 0 ms, faster than 100.00% 
+Memory Usage: 49.1 MB, less than 84.29%
+*/
