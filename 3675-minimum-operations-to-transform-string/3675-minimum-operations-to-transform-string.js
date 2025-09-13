@@ -3,6 +3,10 @@
  * @return {number}
  */
 var minOperations = function(s) {
+
+    // letters close to 'a' would take the max step to transform, 
+    // compare to letters close to 'z'
+    // and we only want to take the max steps
     let alphabet = 'bcdefghijklmnopqrstuvwxyz';
 
     for (let i = 0; i < alphabet.length; i++) {
