@@ -15,6 +15,10 @@ var minOperations = function(s) {
 };
 
 /**
+Date: 9/12/2025
+Runtime: 0ms beats 100%
+Memory: 73.97MB beats 97.88%
+
 =============== first try =============
 // fail on very long string
 
