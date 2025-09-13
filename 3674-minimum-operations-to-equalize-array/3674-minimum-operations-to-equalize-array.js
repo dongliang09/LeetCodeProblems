@@ -17,6 +17,6 @@ var minOperations = function(nums) {
 
 /**
 Date: 09/12/2025
-Runtime: 2ms beats 11.22%
+Runtime: 1ms beats 47.96%
 Memory 56.10MB beats 28.91%
  */
