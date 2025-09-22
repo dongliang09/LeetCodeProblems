@@ -20,7 +20,11 @@ var maxFrequencyElements = function(nums) {
         if (sortArr[i][1] === maxFreq) output += maxFreq
         else break;
     }
-    
+
     return output
     
 };
+
+/**
+Date: 09/21/2025
+ */
