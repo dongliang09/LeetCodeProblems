@@ -28,11 +28,13 @@ var compareVersion = function(version1, version2) {
     //compare each non-zero version
     for (let i = 0; i < longerLength; i++) {
 
+        //index number should be the same, otherwise, it means one is smaller than another
         if (v1NonZeroIdx[i] !== v2NonZeroIdx[i]) {
             if (v1NonZeroIdx[i] < v2NonZeroIdx[i]) return 1
             if (v1NonZeroIdx[i] > v2NonZeroIdx[i]) return -1
         }
 
+        // do normal comparsion
         let v1Curr = parseInt(v1Arr[v1NonZeroIdx[i]]);
         let v2Curr = parseInt(v2Arr[v2NonZeroIdx[i]]);
 
@@ -60,7 +62,9 @@ var compareVersion = function(version1, version2) {
 };
 
 /**
+DateL 9/23/2025
 ========================= First try ====================
+fail: not proper set end loop condition
 
     let output = 0
     let v1Arr = version1.split(".");
