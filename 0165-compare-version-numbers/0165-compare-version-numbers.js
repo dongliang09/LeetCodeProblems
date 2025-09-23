@@ -28,6 +28,11 @@ var compareVersion = function(version1, version2) {
     //compare each non-zero version
     for (let i = 0; i < longerLength; i++) {
 
+        if (v1NonZeroIdx[i] !== v2NonZeroIdx[i]) {
+            if (v1NonZeroIdx[i] < v2NonZeroIdx[i]) return 1
+            if (v1NonZeroIdx[i] > v2NonZeroIdx[i]) return -1
+        }
+
         let v1Curr = parseInt(v1Arr[v1NonZeroIdx[i]]);
         let v2Curr = parseInt(v2Arr[v2NonZeroIdx[i]]);
 
