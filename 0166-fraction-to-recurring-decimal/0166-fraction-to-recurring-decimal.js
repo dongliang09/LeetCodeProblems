@@ -41,7 +41,7 @@ var fractionToDecimal = function(numerator, denominator) {
 
     // console.log(remainderArr, quotientArr, remainderArrIdx)
     if (isDivisionFinished) {
-        if (quotientArr.length === 1) return quotientArr[0].toString()
+        if (quotientArr.length === 1) outputNum = quotientArr[0].toString()
         else outputNum = quotientArr[0].toString()+"."+quotientArr.slice(1).join("")
     } else {
         let nonRepeatPart = quotientArr[0].toString()+"."+quotientArr.slice(1, remainderArrIdx + 1).join("")
