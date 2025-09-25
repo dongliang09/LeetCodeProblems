@@ -16,8 +16,8 @@ var fractionToDecimal = function(numerator, denominator) {
     let isOutputNeg = false
     let outputNum
 
+    // determine the sign of output and convert all into positive first
     if ( (numerator < 0 && denominator > 0) || (numerator > 0 && denominator < 0) ) isOutputNeg = true
-
     numerator = Math.abs(numerator)
     denominator = Math.abs(denominator)
     
