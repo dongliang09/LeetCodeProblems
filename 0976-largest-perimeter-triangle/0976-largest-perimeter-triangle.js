@@ -9,7 +9,9 @@ var largestPerimeter = function(nums) {
     //sort from longest to shorest
     nums = nums.sort((a,b)=> b-a)
     
-    // start from the longest sides, if any form triangle, return it as output
+    // start from the longest sides, 
+    // if any 3 sides form triangle, return it as output
+    // because those are the longest 3 sides we have
     for (let i = 0; i < nums.length - 2; i++) {
         let side1 = nums[i]
         let side2 = nums[i + 1]
@@ -22,3 +24,7 @@ var largestPerimeter = function(nums) {
 
     return output
 };
+
+/**
+Date: 9/27/2025
+ */
