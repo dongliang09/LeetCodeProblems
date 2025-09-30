@@ -18,3 +18,7 @@ var triangularSum = function(nums) {
     return temp[0]
 
 };
+
+/**
+Date: 9/30/2025
+ */
