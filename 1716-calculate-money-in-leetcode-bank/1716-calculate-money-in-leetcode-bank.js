@@ -31,3 +31,9 @@ var totalMoney = function(n) {
     return output
     
 };
+
+/**
+Date: 10/25/2025
+Runtime: 0ms beats 100%
+Memory: 54.38 MB beats 32.08%
+ */
