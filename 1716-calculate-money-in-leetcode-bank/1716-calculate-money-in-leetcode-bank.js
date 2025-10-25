@@ -3,26 +3,31 @@
  * @return {number}
  */
 var totalMoney = function(n) {
-    
-    const completeWeeks = Math.floor(n / 7);
-    const remainDays = n % 7;
-    
-    // first week is 1, second week is 2, third is 3 ....
-    // 1 + ... + 7 = 28
 
-    let base = completeWeeks * 28;
-    // (1 + completeWeeks - 1) * (completeWeeks - 1) / 2 * 7;
-    let extra = completeWeeks > 1 ? (completeWeeks) * (completeWeeks - 1) / 2 * 7 : 0;
-    let moneyInCompleteWeeks = base + extra;    
-        
-    let moneyInReaminDays = 0; 
-    
-    if ( remainDays !== 0 ) {
-        for ( let i = 0; i < remainDays; i ++) {
-            moneyInReaminDays += (completeWeeks + 1 + i);
-        }
+    let output = 0;
+
+    let weeks = Math.floor(n / 7);
+    let extraDays = n % 7;
+
+    // 1+2+3+4+5+6+7 = 28
+    // week 2: 28 + 7
+    // week 3: 28 + 7 + 7
+    // week 4: 28 + 7 + 7 + 7
+    // week 3: 28 + 7 + 7 + 7 + 7
+    // adding 7 is like triangle
+
+    // the add the whole weeks first 
+    output = weeks * (28) + 7 * (0 + weeks - 1) * weeks / 2;
+
+    //add extra days
+    //the first days starts with the number of week
+    let remain = 0;
+    for (let i = weeks + 1; i <= extraDays + weeks; i++) {
+        remain += i;
     }
-    
-    return moneyInCompleteWeeks + moneyInReaminDays;
+
+    output = output + remain;
+
+    return output
     
 };
