@@ -3,34 +3,15 @@
  * @return {number}
  */
 var pivotInteger = function(n) {
-    
-    let pivot = -1;
-    let frontSum = 0, backSum = 0;
-    
-    //add all the num
-    for ( let i = 1; i <= n; i++) {
-        backSum += i;       
+
+    if (n === 1) return 1
+
+    for (let i = 1; i < n; i++) {
+        let leftSum = (1 + i) * i / 2;
+        let rightSum = (i + n) * (n - i + 1) / 2;
+        if (leftSum === rightSum) return i
     }
-    
-    // frontSum add all the num up to current number
-    // backSum wil subtract the current number, 
-    // in other word, sum of numbers after current number
-    for ( let i = 1; i <= n; i++) {
-        frontSum += i;
-        
-        if (frontSum === backSum) {
-            pivot = i;
-            break;
-        }
-        backSum -= i; 
-    }
-    
-    return pivot;
+
+    return -1
     
 };
-
-/*
-Rank 281,009
-Runtime: 108 ms, faster than 100.00%
-Memory Usage: 42.1 MB, less than 100.00% 
-*/
