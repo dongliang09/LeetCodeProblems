@@ -3,20 +3,20 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    
-    let original = String(x);
-    let reverse = original.split("").reverse().join("");
-    
-    if (original === reverse) {
-        return true
-    } else {
-        return false
+
+    if (x < 0) return false
+    if (x < 10) return true
+
+    let str = x.toString();
+    let len = str.length;
+    if (len % 2 === 0) {
+        if (str.slice(0, len /2) === str.slice(len/2, len).split("").reverse().join("")) return true
     }
+    else {
+        if (str.slice(0, (len+1) /2) === str.slice(len /2).split("").reverse().join("")) return true
+    }
+
+    return false
+    
     
 };
-
-/*
-Rank 331,581
-Runtime: 173 ms, faster than 94.69% 
-Memory Usage: 50.8 MB, less than 74.78% 
-*/
