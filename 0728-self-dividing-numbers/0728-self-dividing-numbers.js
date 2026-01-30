@@ -4,26 +4,22 @@
  * @return {number[]}
  */
 var selfDividingNumbers = function(left, right) {
-    
-    let output = [];
-    
-    for ( let curr = left; curr <= right; curr++) {
-        let arr = curr.toString().split("");
-        let isSelfDividing = true
-        for (let i = 0; i < arr.length; i++) {
-            if (arr[i] === '0' || curr % Number(arr[i]) !== 0) {
-                isSelfDividing = false;
-                break;
-            } 
-        }
-        if (isSelfDividing) output.push(Number(curr));
-    }
-    
-    return output
-};
 
-/*
-Date: 04/12/2024
-Runtime: 58 ms, faster than 57.09% 
-Memory Usage: 51.1 MB, less than 44.40%
-*/
+    let output = []
+
+    for ( let i = left; i <= right; i++) {
+        let curr = i.toString();
+        let digits = curr.split("");
+        let isSelfDividng = true
+        for (let j = 0; j < digits.length; j++) {
+            if (i % parseInt(digits[j]) !== 0) {
+                isSelfDividng = false
+                break;
+            }
+        }
+        if (isSelfDividng) output.push(i)
+    }
+
+    return output
+    
+};
