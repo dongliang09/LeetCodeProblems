@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/self-dividing-numbers/">728. Self Dividing Numbers</a></h2><h3>Easy</h3><hr><div><p>A <strong>self-dividing number</strong> is a number that is divisible by every digit it contains.</p>
+<h2><a href="https://leetcode.com/problems/self-dividing-numbers/?envType=problem-list-v2&envId=maths-m2-divisibility-modular-arithmetic">728. Self Dividing Numbers</a></h2><h3>Easy</h3><hr><p>A <strong>self-dividing number</strong> is a number that is divisible by every digit it contains.</p>
 
 <ul>
 	<li>For example, <code>128</code> is <strong>a self-dividing number</strong> because <code>128 % 1 == 0</code>, <code>128 % 2 == 0</code>, and <code>128 % 8 == 0</code>.</li>
@@ -6,7 +6,7 @@
 
 <p>A <strong>self-dividing number</strong> is not allowed to contain the digit zero.</p>
 
-<p>Given two integers <code>left</code> and <code>right</code>, return <em>a list of all the <strong>self-dividing numbers</strong> in the range</em> <code>[left, right]</code>.</p>
+<p>Given two integers <code>left</code> and <code>right</code>, return <em>a list of all the <strong>self-dividing numbers</strong> in the range</em> <code>[left, right]</code> (both <strong>inclusive</strong>).</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -22,4 +22,3 @@
 <ul>
 	<li><code>1 &lt;= left &lt;= right &lt;= 10<sup>4</sup></code></li>
 </ul>
-</div>
