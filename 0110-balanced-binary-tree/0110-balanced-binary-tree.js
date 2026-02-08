@@ -11,7 +11,6 @@
  * @return {boolean}
  */
 var isBalanced = function(root) {
-    
     //================helper function ===========
     function getHeight (rootNode) {
       // Your code here
@@ -43,5 +42,4 @@ var isBalanced = function(root) {
         if(currNode !== null && currNode.right) queue.push(currNode.right);
     }
   return true;
-    
 };
