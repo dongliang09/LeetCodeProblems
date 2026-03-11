@@ -32,4 +32,8 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/dongliang09/LeetCodeProblems/tree/main/1009-complement-of-base-10-integer/) | Easy |
 <!---LeetCode Topics End-->
