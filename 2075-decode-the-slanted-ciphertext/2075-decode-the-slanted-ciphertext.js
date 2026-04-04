@@ -16,8 +16,7 @@ var decodeCiphertext = function(encodedText, rows) {
             this index only increment when we finsihed every row
         (3) when we finish the last column of last row, 
             ie, that mapping won't exist in originText, then we skip
-        (4) how we know we finished? 
-            2 consecutive spaces, we need to record the last character
+        (4) remove empty space at the end of string
     */
     for (let col = 0; col <= columns; col++) {
         for (let row = 0; row < rows; row++) {
