@@ -17,8 +17,8 @@ var Robot = function(width, height) {
  */
 Robot.prototype.step = function(num) {
     num = num % (this.parameter - 4);
-    if (num === 0) num = this.parameter - 4; // extra loop it is 0
-    
+    if (num === 0) num = this.parameter - 4; // extra loop if it is 0
+
     for (let i = num; i > 0; i--) {
         let x = this.posX, y = this.posY
         if (this.direction === 'North') {
