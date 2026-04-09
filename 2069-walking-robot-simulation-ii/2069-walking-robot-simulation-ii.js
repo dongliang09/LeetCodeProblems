@@ -17,7 +17,7 @@ var Robot = function(width, height) {
  */
 Robot.prototype.step = function(num) {
     num = num % (this.parameter - 4);
-    if (num === 0) num = this.parameter - 4; // extra loop if it is 0
+    if (num === 0) num = this.parameter - 4; // extra loop if it is 0, so it solved the problem of direction
 
     for (let i = num; i > 0; i--) {
         let x = this.posX, y = this.posY
