@@ -9,6 +9,7 @@ var minimumDistance = function(nums) {
     let output = Infinity;
 
     // get the index of same numbers in an object with each number as the property
+    // so that we don't need to keep looping
     for (let i = 0; i < nums.length; i++) {
         let curr = nums[i]
         if (indexObj[curr] === undefined) indexObj[curr] = new Array()
@@ -28,6 +29,7 @@ var minimumDistance = function(nums) {
         }
     }
 
-    if (output === Infinity) return -1
+    if (output === Infinity) return -1 // this only happen when we don't have a distance at all
+    
     return output
 }; 
