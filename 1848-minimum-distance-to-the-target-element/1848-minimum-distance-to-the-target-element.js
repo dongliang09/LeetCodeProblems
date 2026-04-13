@@ -8,6 +8,9 @@ var getMinDistance = function(nums, target, start) {
 
     let output = nums.length; 
 
+    // we stop when we find the nearest target on both side
+    // because that is min distance
+
     // check right side
     for (let i = start; i < nums.length; i++) {
         let curr = nums[i];
