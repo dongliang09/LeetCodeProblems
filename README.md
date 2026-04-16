@@ -18,6 +18,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/dongliang09/LeetCodeProblems/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/dongliang09/LeetCodeProblems/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dongliang09/LeetCodeProblems/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Recursion
@@ -36,6 +37,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | ------- | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dongliang09/LeetCodeProblems/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 ## Matrix
