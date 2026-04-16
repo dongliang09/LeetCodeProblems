@@ -14,7 +14,8 @@ var closestTarget = function(words, target, startIndex) {
         if (words[i] === target) distanceRight = i - startIndex
         if (distanceRight < output) output = distanceRight
     }
-
+    // because we are in circular array, need to count from the begining as well 
+    // if not found at the end of array
     if (distanceRight === Infinity) {
         for (let i = 0; i < startIndex; i++) {
             if (words[i] === target) distanceRight = i + 1 + (words.length - startIndex - 1) 
@@ -27,7 +28,7 @@ var closestTarget = function(words, target, startIndex) {
         if (words[i] === target) distanceLeft = startIndex - i
         if (distanceLeft < output) output = distanceLeft
     }
-
+    // same as before, but reverse
     if (distanceLeft === Infinity) {
         for (let i = words.length -1; i > startIndex; i--) {
             if (words[i] === target) distanceLeft = words.length -  i + startIndex
@@ -35,7 +36,6 @@ var closestTarget = function(words, target, startIndex) {
         }
     }
 
-    console.log(distanceLeft, distanceRight, output)
     if (output === Infinity) return -1
 
     return output
