@@ -47,3 +47,4 @@ var minMirrorPairDistance = function(nums) {
 ============= test cases ========
 [1000, 100, 10, 1, 100, 10, 1]
 I didn’t check the cases where reverse is itself
+*/
