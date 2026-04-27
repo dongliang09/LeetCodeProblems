@@ -36,6 +36,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dongliang09/LeetCodeProblems/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -45,6 +46,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -74,4 +76,16 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2833-furthest-point-from-origin](https://github.com/dongliang09/LeetCodeProblems/tree/main/2833-furthest-point-from-origin/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 <!---LeetCode Topics End-->
