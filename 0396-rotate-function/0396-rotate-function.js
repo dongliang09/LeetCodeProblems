@@ -21,6 +21,7 @@ var maxRotateFunction = function(nums) {
 
     F(1) = F(0) + sum - n*arr0[n-1]
 
+    From here, we get
     F(n) = F(n-1) + sum - n*arrk[n-1] 
     arrk[] is the shifted array from arr0 
     
