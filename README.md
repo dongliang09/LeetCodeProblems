@@ -36,6 +36,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dongliang09/LeetCodeProblems/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
@@ -70,6 +71,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/0788-rotated-digits/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/dongliang09/LeetCodeProblems/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
@@ -92,5 +94,6 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/0788-rotated-digits/) | Medium |
 <!---LeetCode Topics End-->
