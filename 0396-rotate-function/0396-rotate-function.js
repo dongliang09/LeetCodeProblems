@@ -20,6 +20,9 @@ var maxRotateFunction = function(nums) {
          = sum - n*arr0[n-1]
 
     F(1) = F(0) + sum - n*arr0[n-1]
+
+    F(n) = F(n-1) + sum - n*arrk[n-1] 
+    arrk[] is the shifted array from arr0 
     
     */
 
@@ -34,7 +37,7 @@ var maxRotateFunction = function(nums) {
     let output = F
     let curr = 0
 
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 1; i < nums.length; i++) {
         curr =  F + sum - (nums.length) * nums[nums.length - 1 - i]
         if (curr > output) output = curr
         // update
