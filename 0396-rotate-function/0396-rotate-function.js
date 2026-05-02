@@ -37,7 +37,7 @@ var maxRotateFunction = function(nums) {
     let output = F
     let curr = 0
 
-    for (let i = 1; i < nums.length; i++) {
+    for (let i = 0; i < nums.length; i++) {
         curr =  F + sum - (nums.length) * nums[nums.length - 1 - i]
         if (curr > output) output = curr
         // update
