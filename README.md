@@ -37,6 +37,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/dongliang09/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -48,6 +49,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/dongliang09/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 ## Bit Manipulation
@@ -72,6 +74,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/dongliang09/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/0788-rotated-digits/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
