@@ -109,5 +109,10 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0061-rotate-list](https://github.com/dongliang09/LeetCodeProblems/tree/main/0061-rotate-list/) | Medium |
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/dongliang09/LeetCodeProblems/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
