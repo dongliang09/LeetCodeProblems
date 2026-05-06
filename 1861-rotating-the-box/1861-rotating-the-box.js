@@ -12,6 +12,8 @@ var rotateTheBox = function(boxGrid) {
         get the count of stone and empty to fill on the top of obstacle in new array
 
         do the same for each row in old array
+
+        when the cell arr[i][j] rotate, the new position would be arr[j][boxGrid.length - 1 - i]
      */
 
     let arr = Array.from({ length: boxGrid[0].length }, () => Array(boxGrid.length).fill("."));
@@ -21,27 +23,20 @@ var rotateTheBox = function(boxGrid) {
         for (let j = 0; j < boxGrid[0].length; j++) {
             let curr = boxGrid[i][j]
 
-            // console.log("curr",curr)
-
             if (curr === '#') stoneCount++
             else if (curr === '*'){
                 arr[j][boxGrid.length - i - 1] = '*'
-                // console.log("obstacle, stone count", stoneCount)
 
                 // fill the stone
                 for (let k = 0; k < stoneCount; k++) {
-                    arr[j - k - 1][boxGrid.length - 1- i] = "#"
-                    // console.log('stone pos', [j - k - 1, boxGrid.length- 1 - i])
+                    arr[j - k - 1][boxGrid.length - 1 - i] = "#"
                 }
                 stoneCount = 0;
             } 
             if (j === boxGrid[0].length - 1){
-
-                // console.log("end of row, stone count", stoneCount)
                 // fill the stone
                 for (let k = 0; k < stoneCount; k++) {
-                    arr[j - k][boxGrid.length - 1-i] = "#"
-                    // console.log('stone pos', [j - k, boxGrid.length- 1-i])
+                    arr[j - k][boxGrid.length - 1 - i] = "#"
                 }
                 stoneCount = 0;
             } 
