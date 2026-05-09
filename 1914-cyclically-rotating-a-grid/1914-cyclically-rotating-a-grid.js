@@ -14,6 +14,9 @@ var rotateGrid = function(grid, k) {
      */
 
     let output = Array.from({ length: grid.length}, () => Array(grid[0].length).fill(0));
+
+    // should compare the length of width and height, stop at the half of the smaller one
+    // because number of layers is defined by the small one
     let halfWidth = grid[0].length / 2, halfHeight = grid.length / 2
     let numLayer =  halfHeight > halfWidth ? halfWidth : halfHeight
 
