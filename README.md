@@ -35,6 +35,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2069-walking-robot-simulation-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dongliang09/LeetCodeProblems/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -46,6 +47,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2553-separate-the-digits-in-an-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
