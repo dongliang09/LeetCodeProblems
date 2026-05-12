@@ -43,6 +43,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1848-minimum-distance-to-the-target-element](https://github.com/dongliang09/LeetCodeProblems/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
@@ -73,6 +74,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -120,4 +122,8 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/dongliang09/LeetCodeProblems/tree/main/0061-rotate-list/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 <!---LeetCode Topics End-->
