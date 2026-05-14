@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isGood = function(nums) {
-    const countObj = {}
+    let countObj = {}
     
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] >= nums.length) return false
