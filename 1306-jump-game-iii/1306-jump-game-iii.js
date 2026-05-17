@@ -5,6 +5,11 @@
  */
 var canReach = function(arr, start) {
 
+    /**
+        we use DFS to search, and a set to keep track of index
+        if we have visited a index, skip it, else, push into the stack to search later
+     */
+     
     let visited = new Set()
 
     let stack = [start]
