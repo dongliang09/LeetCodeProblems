@@ -41,6 +41,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/dongliang09/LeetCodeProblems/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/dongliang09/LeetCodeProblems/tree/main/0396-rotate-function/) | Medium |
+| [1306-jump-game-iii](https://github.com/dongliang09/LeetCodeProblems/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/dongliang09/LeetCodeProblems/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -98,10 +99,12 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1306-jump-game-iii](https://github.com/dongliang09/LeetCodeProblems/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1306-jump-game-iii](https://github.com/dongliang09/LeetCodeProblems/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
