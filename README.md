@@ -49,6 +49,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2540-minimum-common-value](https://github.com/dongliang09/LeetCodeProblems/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/dongliang09/LeetCodeProblems/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -69,6 +70,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2540-minimum-common-value](https://github.com/dongliang09/LeetCodeProblems/tree/main/2540-minimum-common-value/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/dongliang09/LeetCodeProblems/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -124,6 +126,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/dongliang09/LeetCodeProblems/tree/main/0061-rotate-list/) | Medium |
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
+| [2540-minimum-common-value](https://github.com/dongliang09/LeetCodeProblems/tree/main/2540-minimum-common-value/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -132,4 +135,8 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2540-minimum-common-value](https://github.com/dongliang09/LeetCodeProblems/tree/main/2540-minimum-common-value/) | Easy |
 <!---LeetCode Topics End-->
