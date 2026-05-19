@@ -4,11 +4,20 @@
  * @return {number}
  */
 var getCommon = function(nums1, nums2) {
-    
-    if (nums1[nums1.length - 1] < nums2[0]) return -1
-    
+
+    /**
+        add all of one array into a set
+        since both array are sorted, if anything match the set from the second
+        then it is the answer, otherwise, no match
+     */
+     
+    let num1set = new Set()
     for (let i = 0; i < nums1.length; i++) {
-        if (nums2.indexOf(nums1[i]) !== -1 ) return nums1[i]
+        num1set.add(nums1[i])
+    }
+    
+    for (let i = 0; i < nums2.length; i++) {
+        if (num1set.has(nums2[i])) return nums2[i]
     }
     
     return -1
