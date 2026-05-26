@@ -4,26 +4,28 @@
  */
 var numberOfSpecialChars = function(word) {
     
-    let visited = new Set();
-    let output = 0;
-    
-    for (let i = 0 ; i < word.length; i++) {
-        if (word[i] <= "z" && word[i] >= "a" && !visited.has(word[i])) visited.add(word[i])
-    }
-    
-    let visitedArr = [...visited];
-    
-    for (let i = 0 ; i < visitedArr.length; i++) {
-        let currLetter = visitedArr[i].toUpperCase()
-        if (word.indexOf(currLetter) !== -1) output++;
-    }
-    
-    return output
-    
-};
 
-/*
-Date: 04/26/2024
-Runtime: 60 ms, faster than 81.72% 
-Memory Usage: 51.2 MB, less than 73.31% 
-*/
+    /**
+        let's have 2 sets, one for uppercase, and one for lowercase
+        but when we store the uppercase, we store as lowercase in this case
+        then we find the common of both set, and that is our answer
+     */
+    let uppercase = new Set()
+    let lowercase = new Set()
+    let common
+    let output = 0
+
+    for (let i = 0; i < word.length; i++) {
+        let curr = word[i]
+        if (curr.toLowerCase() === curr) {
+            lowercase.add(curr)
+        } else {
+            uppercase.add(curr.toLowerCase())
+        }
+    }
+
+    common = lowercase.intersection(uppercase)
+    
+    return common.size
+
+};
