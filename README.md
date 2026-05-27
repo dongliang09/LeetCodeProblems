@@ -24,6 +24,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,6 +80,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [2784-check-if-array-is-good](https://github.com/dongliang09/LeetCodeProblems/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
