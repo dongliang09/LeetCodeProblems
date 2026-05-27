@@ -3,6 +3,12 @@
  * @return {number}
  */
 var numberOfSpecialChars = function(word) {
+
+    /**
+        create an object to store the last index of lowercase, and only the 1st uppercase
+        then compare the index of lowercase and uppercase
+        increment if lowercase index is smaller than uppercase index
+     */
     
     let output = 0
     let indexObj = {}
