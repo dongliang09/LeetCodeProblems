@@ -9,8 +9,11 @@ var passwordStrength = function(password) {
         A-Z is 65 - 90
         a-z is 97 - 122
         0-9 is 48 - 57
-        !@#$ is 33, 64, 35, 36
+        !@#$ is everthing else
+
+        use set to remove duplicate, then add the sum of score
      */
+
     let lowercase = new Set()
     let uppercase = new Set()
     let digit = new Set()
