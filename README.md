@@ -51,6 +51,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1848-minimum-distance-to-the-target-element](https://github.com/dongliang09/LeetCodeProblems/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1861-rotating-the-box](https://github.com/dongliang09/LeetCodeProblems/tree/main/1861-rotating-the-box/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dongliang09/LeetCodeProblems/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/dongliang09/LeetCodeProblems/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
@@ -89,6 +90,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dongliang09/LeetCodeProblems/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/dongliang09/LeetCodeProblems/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Design
@@ -145,6 +147,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dongliang09/LeetCodeProblems/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
