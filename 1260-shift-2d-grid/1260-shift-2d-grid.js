@@ -18,7 +18,6 @@ var shiftGrid = function(grid, k) {
 
     start = arr.length - k % arr.length
     arr = arr.slice(start).concat(arr.slice(0,start))
-    console.log(arr)
 
     for (let i = 0; i < arr.length; i+=0) {
         let row = []
