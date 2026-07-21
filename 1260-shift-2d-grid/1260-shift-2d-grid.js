@@ -4,6 +4,11 @@
  * @return {number[][]}
  */
 var shiftGrid = function(grid, k) {
+    
+    /**
+        unfold into 1-D array, count offset, have the new head
+        put back into 2-D array
+     */
 
     let output = []
 
