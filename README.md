@@ -98,6 +98,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dongliang09/LeetCodeProblems/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/dongliang09/LeetCodeProblems/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3536-maximum-product-of-two-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -110,6 +111,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [0788-rotated-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/0788-rotated-digits/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/dongliang09/LeetCodeProblems/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3536-maximum-product-of-two-digits](https://github.com/dongliang09/LeetCodeProblems/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/dongliang09/LeetCodeProblems/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
