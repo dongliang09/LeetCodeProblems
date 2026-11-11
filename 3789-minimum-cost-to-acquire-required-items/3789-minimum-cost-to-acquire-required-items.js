@@ -12,7 +12,7 @@ var minimumCost = function(cost1, cost2, costBoth, need1, need2) {
 
     if (costBoth <= cost1 + cost2) {
         let method1 = Math.max(need1, need2) * costBoth
-        
+
         let method2 = 0
         let commonNeed = Math.min(need1, need2)
         method2 +=  commonNeed * costBoth
@@ -28,3 +28,15 @@ var minimumCost = function(cost1, cost2, costBoth, need1, need2) {
 
     return output
 };
+
+/*
+===============  examples   ================
+ cost1 cost2 costBoth need1 need2
+  37    53    45      5      18    Total = 45*18 = 810
+  37    53    45      18     5     Total = 45*5 + 37*13 = 706
+
+some cases are not straight forward,
+we don't know which method is cheaper, 
+we can calculate both, and take the minimum
+*/
+
