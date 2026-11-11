@@ -115,6 +115,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/dongliang09/LeetCodeProblems/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/dongliang09/LeetCodeProblems/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/dongliang09/LeetCodeProblems/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,6 +158,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | ------- | ------- |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/dongliang09/LeetCodeProblems/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/dongliang09/LeetCodeProblems/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [3789-minimum-cost-to-acquire-required-items](https://github.com/dongliang09/LeetCodeProblems/tree/main/3789-minimum-cost-to-acquire-required-items/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
