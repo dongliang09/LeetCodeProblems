@@ -26,3 +26,8 @@ var digitSum = function(s, k) {
 
     return s
 };
+
+/**
+Runtime: 0 ms Beats 100.00%
+Memory: 56.60MB Beats 10.00%
+ */
