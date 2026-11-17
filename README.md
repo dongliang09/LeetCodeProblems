@@ -19,6 +19,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/dongliang09/LeetCodeProblems/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/dongliang09/LeetCodeProblems/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dongliang09/LeetCodeProblems/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/dongliang09/LeetCodeProblems/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/dongliang09/LeetCodeProblems/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/dongliang09/LeetCodeProblems/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
@@ -38,6 +39,7 @@ https://github.com/aymak91/ds-a_code_templates/blob/main/python/14_backtracking.
 | [1914-cyclically-rotating-a-grid](https://github.com/dongliang09/LeetCodeProblems/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [2069-walking-robot-simulation-ii](https://github.com/dongliang09/LeetCodeProblems/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/dongliang09/LeetCodeProblems/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/dongliang09/LeetCodeProblems/tree/main/2243-calculate-digit-sum-of-a-string/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/dongliang09/LeetCodeProblems/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 ## Array
 | Problem Name | Difficulty |
