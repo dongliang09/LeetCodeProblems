@@ -19,7 +19,6 @@ var digitSum = function(s, k) {
             }
             arr.push(sum)
         }
-        console.log(arr)
         s = arr.join("")
 
         if (s.length <= k) isLengthGreaterThanK = false
